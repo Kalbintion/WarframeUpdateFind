@@ -1,0 +1,8 @@
+C:\Projects\VS10\WarframeUpdateFind\WarframeUpdateFind\bin\Debug\WarframeUpdateFind.exe
+C:\Projects\VS10\WarframeUpdateFind\WarframeUpdateFind\bin\Debug\WarframeUpdateFind.pdb
+C:\Projects\VS10\WarframeUpdateFind\WarframeUpdateFind\bin\Debug\WarframeUpdateFind.xml
+C:\Projects\VS10\WarframeUpdateFind\WarframeUpdateFind\obj\x86\Debug\WarframeUpdateFind.Resources.resources
+C:\Projects\VS10\WarframeUpdateFind\WarframeUpdateFind\obj\x86\Debug\WarframeUpdateFind.vbproj.GenerateResource.Cache
+C:\Projects\VS10\WarframeUpdateFind\WarframeUpdateFind\obj\x86\Debug\WarframeUpdateFind.exe
+C:\Projects\VS10\WarframeUpdateFind\WarframeUpdateFind\obj\x86\Debug\WarframeUpdateFind.xml
+C:\Projects\VS10\WarframeUpdateFind\WarframeUpdateFind\obj\x86\Debug\WarframeUpdateFind.pdb

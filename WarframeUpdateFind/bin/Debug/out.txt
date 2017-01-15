@@ -1,0 +1,565 @@
+Looking for:  twin vipers
+{{ver|19.1.1.1}}
+{{ver|19.1.1}}
+{{ver|19.1}}
+{{ver|19.0.7}}
+{{ver|19.0.6.1}}
+{{ver|19.0.6}}
+{{ver|19.0.5}}
+{{ver|19.0.4}}
+{{ver|19.0.3}}
+{{ver|19.0.2}}
+{{ver|19.0.1}}
+{{ver|The War Within}}
+{{ver|Recurring Dreams 3}}
+{{ver|Recurring Dreams 2}}
+{{ver|Recurring Dreams 1}}
+{{ver|Recurring Dreams}}
+{{ver|Recurring Nightmares 2}}
+{{ver|Recurring Nightmares 1.1}}
+{{ver|Recurring Nightmares 1}}
+{{ver|Recurring Nightmares}}
+{{ver|The Index Preview 4}}
+{{ver|The Index Preview 3}}
+{{ver|The Index Preview 2}}
+{{ver|The Index Preview 1}}
+{{ver|The Index Preview}}
+{{ver|The Vacuum Within 3}}
+{{ver|The Vacuum Within 2}}
+{{ver|The Vacuum Within 1}}
+{{ver|The Vacuum Within}}
+{{ver|The Silver Grove 4.2}}
+{{ver|The Silver Grove 4.1}}
+{{ver|The Silver Grove 4}}
+{{ver|The Silver Grove 3.3}}
+{{ver|The Silver Grove 3.2}}
+{{ver|The Silver Grove 3.1}}
+{{ver|The Silver Grove 3}}
+{{ver|The Silver Grove 2.2}}
+{{ver|The Silver Grove 2.1}}
+{{ver|The Silver Grove 2}}
+{{ver|The Silver Grove 1.4}}
+{{ver|The Silver Grove 1.3}}
+{{ver|The Silver Grove 1.2}}
+{{ver|The Silver Grove 1.1}}
+{{ver|The Silver Grove 1}}
+{{ver|The Silver Grove 5}}
+{{ver|The Silver Grove 4}}
+{{ver|The Silver Grove 3}}
+{{ver|The Silver Grove 2}}
+{{ver|The Silver Grove 1}}
+{{ver|The Silver Grove}}
+{{ver|Specters of the Rail 2.3}}
+{{ver|Specters of the Rail 2.2}}
+{{ver|Specters of the Rail 2.1}}
+{{ver|Specters of the Rail 2}}
+{{ver|Specters of the Rail 1.1}}
+{{ver|Specters of the Rail 1}}
+{{ver|Specters of the Rail 13}}
+{{ver|Specters of the Rail 12}}
+{{ver|Specters of the Rail 11}}
+{{ver|Specters of the Rail 10}}
+{{ver|Specters of the Rail 9 }}
+{{ver|Specters of the Rail 8}}
+{{ver|Specters of the Rail 7}}
+{{ver|Specters of the Rail 6}}
+{{ver|Specters of the Rail 5}}
+{{ver|Specters of the Rail 4}}
+{{ver|Specters of the Rail 3}}
+{{ver|Specters of the Rail 2}}
+{{ver|Specters of the Rail 1}}
+{{ver|Specters of the Rail }}
+{{ver|Lunaro 7.1}}
+{{ver|Lunaro 7}}
+{{ver|Lunaro 6}}
+{{ver|Lunaro 5}}
+{{ver|Lunaro 4}}
+{{ver|Lunaro 3}}
+{{ver|Lunaro 2}}
+{{ver|Lunaro 1}}
+{{ver|Lunaro}}
+{{ver|18.14.2}}
+{{ver|18.14.1}}
+{{ver|18.14.0.1}}
+{{ver|18.14}}
+{{ver|18.13.3}}
+{{ver|18.13.2}}
+{{ver|18.13.1.1}}
+{{ver|18.13.1}}
+{{ver|18.13}}
+{{ver|18.12.2}}
+{{ver|18.12.1}}
+{{ver|18.12}}
+{{ver|18.11.1}}
+{{ver|18.11}}
+{{ver|18.10.6}}
+{{ver|18.10.5}}
+{{ver|18.10.4}}
+{{ver|18.10.3}}
+{{ver|18.10.2}}
+{{ver|18.10.1}}
+{{ver|18.10}}
+{{ver|18.9}}
+{{ver|18.8.2}}
+{{ver|18.8.1}}
+{{ver|18.8}}
+{{ver|18.7.1}}
+{{ver|18.7.1}}
+{{ver|18.7}}
+{{ver|18.6.3}}
+{{ver|18.6.2}}
+{{ver|18.6.1.1}}
+{{ver|18.6.1}}
+{{ver|18.6}}
+{{ver|18.5.6}}
+{{ver|18.5.5.1}}
+{{ver|18.5.5}}
+{{ver|18.5.4}}
+{{ver|18.5.3}}
+{{ver|18.5.2}}
+{{ver|18.5.1}}
+{{ver|18.5}}
+{{ver|18.4.13}}
+{{ver|18.4.12}}
+{{ver|18.4.11}}
+{{ver|18.4.10}}
+{{ver|18.4.9}}
+{{ver|18.4.8}}
+{{ver|18.4.7}}
+{{ver|18.4.6}}
+{{ver|18.4.5}}
+{{ver|18.4.4.1}}
+{{ver|18.4.4}}
+{{ver|18.4.3}}
+{{ver|18.4.2}}
+{{ver|18.4.1}}
+{{ver|18.4.0}}
+{{ver|18.3.1.1}}
+{{ver|18.3.1}}
+{{ver|18.3}}
+{{ver|18.2.4}}
+{{ver|18.2.3}}
+{{ver|18.2.2}}
+{{ver|18.2.1}}
+{{ver|18.2}}
+{{ver|18.1.4}}
+{{ver|18.1.3.1}}
+{{ver|18.1.3}}
+{{ver|18.1.2}}
+{{ver|18.1.1}}
+{{ver|18.1}}
+{{ver|18.0.8}}
+{{ver|18.0.7}}
+{{ver|18.0.6.1}}
+{{ver|18.0.6}}
+{{ver|18.0.5}}
+{{ver|18.0.4.1}}
+{{ver|18.0.4}}
+{{ver|18.0.3}}
+{{ver|18.0.2}}
+{{ver|18.0.1}}
+{{ver|18.0}}
+{{ver|17.12.1}}
+{{ver|17.12}}
+{{ver|17.11.1}}
+{{ver|17.11.0.1}}
+{{ver|17.11}}
+{{ver|17.10.4}}
+{{ver|17.10.3}}
+{{ver|17.10.2}}
+{{ver|17.10.1}}
+{{ver|17.10}}
+{{ver|17.9.2}}
+{{ver|17.9.1}}
+{{ver|17.9}}
+{{ver|17.8.1}}
+{{ver|17.8}}
+{{ver|17.7.1}}
+{{ver|17.7}}
+{{ver|17.6.2}}
+{{ver|17.6.1}}
+{{ver|17.6}}
+{{ver|17.5.5}}
+{{ver|17.5.4}}
+{{ver|17.5.3}}
+{{ver|17.5.2}}
+{{ver|17.5.1}}
+{{ver|17.5}}
+{{ver|17.4.5}}
+{{ver|17.4.4}}
+{{ver|17.4.3}}
+{{ver|17.4.2}}
+{{ver|17.4.1}}
+{{ver|17.4}}
+{{ver|17.3.1}}
+{{ver|17.3}}
+{{ver|17.2.6}}
+{{ver|17.2.5}}
+{{ver|17.2.4}}
+{{ver|17.2.3}}
+{{ver|17.2.2}}
+{{ver|17.2.1}}
+{{ver|17.2}}
+{{ver|17.1.5}}
+{{ver|17.1.4}}
+{{ver|17.1.3}}
+{{ver|17.1.2}}
+{{ver|17.1.1}}
+{{ver|17.1}}
+{{ver|17.0.5}}
+{{ver|17.0.4}}
+{{ver|17.0.3}}
+{{ver|17.0.2}}
+{{ver|17.0.1}}
+{{ver|17.0}}
+{{ver|16.11.5}}
+{{ver|16.11.4}}
+{{ver|16.11.3}}
+|update number = 16.11.2}}
+{{ver|16.11.1}}
+{{ver|16.11}}
+{{ver|16.10.2}}
+{{ver|16.10.1}}
+{{ver|16.10}}
+{{ver|16.9.4}}
+{{ver|16.9.3}}
+{{ver|16.9.2.1}}
+{{ver|16.9.2}}
+{{ver|16.9.1.1}}
+{{ver|16.9.1}}
+{{ver|16.9}}
+{{ver|16.8.4}}
+{{ver|16.8.3}}
+{{ver|16.8.2}}
+{{ver|16.8.1}}
+{{ver|16.8}}
+{{ver|16.7.2}}
+{{ver|16.7.1}}
+{{ver|16.7}}
+{{ver|16.6.3}}
+{{ver|16.6.2}}
+{{ver|16.6.1}}
+{{ver|16.6}}
+{{ver|16.5.9}}
+{{ver|16.5.8}}
+{{ver|16.5.7}}
+{{ver|16.5.6}}
+{{ver|16.5.5}}
+{{ver|16.5.4}}
+{{ver|16.5.3}}
+{{ver|16.5.2}}
+{{ver|16.5.1}}
+{{ver|16.5}}
+{{ver|16.4.5.2}}
+{{ver|16.4.5.1}}
+{{ver|16.4.5}}
+{{ver|16.4.4.1}}
+{{ver|16.4.4}}
+{{ver|16.4.3}}
+{{ver|16.4.2}}
+{{ver|16.4.1}}
+{{ver|16.4}}
+{{ver|16.3.5}}
+{{ver|16.3.4}}
+{{ver|16.3.3.1}}
+|update number = 16.3.3}}
+{{ver|16.3.2}}
+{{ver|16.3.1.2}}
+{{ver|16.3.1.1}}
+{{ver| 16.3.1}}
+{{ver| 16.3}}
+{{ver|16.2.2}}
+{{ver|16.2.1}}
+{{ver|16.2}}
+{{ver|16.1.6}}
+{{ver|16.1.5}}
+{{ver|16.1.4.1}}
+{{ver|16.1.4}}
+{{ver|16.1.3}}
+{{ver|16.1.2}}
+{{ver|16.1.1}}
+{{ver|16.1}}
+{{ver|16.0.4}}
+{{ver|16.0.3}}
+{{ver|16.0.2}}
+{{ver|16.0.1}}
+|update number =16.0}}
+*The Viper, Dual Vipers and Wraith Twin Vipers have been given a visual and audio overhaul!
+{{ver|15.16.2}}
+{{ver|15.16.1}}
+{{ver|15.16}}
+{{ver|15.15.01}}
+{{ver|15.15}}
+{{ver| 15.14.1}}
+{{ver| 15.14}}
+{{ver| 15.13.8}}
+|update number = 15.13.7}}
+|update number = 15.13.6}}
+{{ver|15.13.5}}
+{{ver|15.13.4}}
+{{ver|15.13.3}}
+{{ver|15.13.2}}
+{{ver|15.13.1}}
+{{ver|15.13}}
+{{ver|15.12.3}}
+{{ver|15.12.2}}
+{{ver|15.12}}
+{{ver|15.11.2}}
+{{ver|15.11.1}}
+{{ver|15.11}}
+{{ver| 15.10.2}}
+{{ver| 15.10.1}}
+{{ver| 15.10}}
+{{ver| 15.9}}
+{{ver|15.8.1}}
+{{ver|15.8}}
+{{ver|15.7.2.1}}
+{{ver|15.7.2}}
+{{ver|15.7.1}}
+{{ver|15.7}}
+{{ver|15.6.4}}
+{{ver|15.6.3.1}}
+{{ver|15.6.3}}
+{{ver|15.6.2}}
+{{ver|15.6.1}}
+{{ver|15.6}}
+{{ver|15.5.9}}
+{{ver|15.5.8}}
+{{ver|15.5.7.1}}
+{{ver|15.5.7}}
+{{ver|15.5.6}}
+{{ver|15.5.5}}
+{{ver|15.5.4}}
+{{ver|15.5.3}}
+{{ver|15.5.2}}
+{{ver|15.5.1}}
+{{ver|15.5}}
+{{ver|15.3.3}}
+{{ver|15.3.2}}
+{{ver|15.3.1}}
+{{ver|15.3}}
+{{ver|15.2.2}}
+{{ver|15.2.1}}
+{{ver|15.2}}
+{{ver|15.1.3}}
+{{ver|15.1.2}}
+{{ver|15.1.1}}
+{{ver|15.1.01}}
+{{ver|15.1}}
+{{ver|15.0.9}}
+{{ver|15.0.8}}
+{{ver|15.0.7}}
+{{ver|15.0.6}}
+{{ver|15.0.5}}
+{{ver|15.0.4}}
+{{ver|15.0.3}}
+{{ver|15.0.2}}
+{{ver|15.0.1}}
+{{ver|15.0}}
+{{ver| 14.10.3}}
+{{ver| 14.10.2.1}}
+{{ver| 14.10.2}}
+{{ver| 14.10}}
+{{ver| 14.9.2}}
+{{ver| 14.9.1}}
+{{ver| 14.9}}
+{{ver| 14.8.1}}
+{{ver| 14.8}}
+{{ver| 14.7.4}}
+{{ver| 14.7.3.1}}
+{{ver| 14.7.3}}
+{{ver| 14.7.2}}
+{{ver| 14.7.1}}
+{{ver| 14.7}}
+{{ver| 14.6.1}}
+{{ver| 14.6}}
+{{ver|14.5.2}}
+{{ver|14.5.1.1}}
+{{ver|14.5.1}}
+{{ver|14.5.0.3}}
+{{ver|14.5.0.2}}
+{{ver|14.5.0.1}}
+{{ver|14.5}}
+{{ver|14.2.4}}
+{{ver|14.2.3}}
+{{ver|14.2.2}}
+{{ver|14.2.1  }}
+{{ver|14.2}}
+{{ver|14.1.4}}
+{{ver|14.1.3}}
+{{ver|14.1.2 & 14.1.2.1}}
+{{ver|14.1.1}}
+{{ver|14.1}}
+{{ver|14.0.11}}
+{{ver|14.0.10}}
+{{ver|14.0.9}}
+{{ver| 14.0.8}}
+{{ver| 14.0.7 & 14.0.7.1}}
+{{ver|14.0.6}}
+{{ver|14.0.5}}
+{{ver|14.0.4}}
+{{ver|14.0.3}}
+{{ver|14.0.2}}
+{{ver|14.0.1}}
+{{ver|14.0}}
+{{ver|13.9.3.1}}
+{{ver|13.9.2}}
+{{ver|13.9.1.1}}
+{{ver|13.9.1}}
+{{ver|13.9.0.2}}
+{{ver|13.9.0.1}}
+{{ver|13.9}}
+{{ver|13.8.5}}
+{{ver|13.8.4}}
+{{ver|13.8.3}}
+{{ver|13.8.2}}
+{{ver|13.8.1}}
+{{ver|13.8}}
+{{ver|13.7.2}}
+{{ver|13.7.0.1}}
+{{ver|13.7}}
+{{ver|13.6.1}}
+{{ver|13.6.0.1}}
+{{ver|13.6}}
+{{ver|13.5.3}}
+{{ver|13.5.2}}
+{{ver|13.5.1}}
+{{ver|13.5}}
+{{ver|13.4.1}}
+{{ver|13.4}}
+{{ver|13.3.1}}
+{{ver|13.3}}
+{{ver|13.2.4}}
+{{ver|13.2.3}}
+{{ver|13.2.2.1}}
+{{ver|13.2.2}}
+{{ver|13.2.1}}
+{{ver|13.2}}
+{{ver|13.1.2}}
+{{ver|13.1.1}}
+{{ver|13.1}}
+{{ver|13.0.7.1}}
+{{ver|13.0.7}}
+{{ver|13.0.6}}
+{{ver|13.0.5}}
+{{ver|13.0.4}}
+{{ver|13.0.3}}
+{{ver|13.0.2}}
+{{ver|13.0.1}}
+{{ver|13.0}}
+{{ver|12.6.1}}
+{{ver|12.6}}
+{{ver|12.5.3}}
+{{ver|12.5.2}}
+{{ver|12.5.1}}
+{{ver|12.5}}
+{{ver|12.4.6}}
+{{ver|12.4.5}}
+{{ver| 12.4.4}}
+{{ver| 12.4.3}}
+{{ver|12.4.2}}
+{{ver| 12.4.1}}
+{{ver|12.4}}
+{{ver|12.3.2}}
+{{ver|12.3.1}}
+{{ver|12.3}}
+{{ver|12.2.1}}
+{{ver|12.2}}
+{{ver|12.1.2}}
+{{ver|12.1.1}}
+{{ver|12.1}}
+{{ver|12.0.5}}
+{{ver|12.0.4}}
+{{ver|12.0.3}}
+{{ver|12.0.2}}
+{{ver|12.0.1}}
+{{ver|12.0}}
+{{ver|11.9.2}}
+{{ver|11.9 & 11.9.1}}
+{{ver|11.8.3}}
+{{ver|11.8.2}}
+{{ver|11.8.1}}
+{{ver|11.8}}
+{{ver|11.7.3}}
+{{ver|11.7.2}}
+{{ver|11.7.1}}
+{{ver|11.7}}
+{{ver|11.6.1.1}}
+{{ver|11.6.1}}
+{{ver|11.6}}
+{{ver|11.5.8}}
+- Score 100 points and you will earn a set of Wraith Twin Vipers!
+{{ver|11.5.7}}
+{{ver|11.5.6}}
+{{ver|11.5.5}}
+{{ver|11.5.4}}
+{{ver|11.5.3}}
+{{ver|11.5.2}}
+{{ver|11.5.1}}
+{{ver|11.5}}
+{{ver|11.3.3}}
+{{ver|11.3.2}}
+{{ver|11.3.1}}
+{{ver|11.3}}
+{{ver|11.2.1}}
+{{ver|11.2}}
+{{ver|11.1.3}}
+{{ver|11.1.2}}
+{{ver|11.1.1}}
+{{ver|11.1}}
+{{ver|11.0.7}}
+{{ver|11.0.6}}
+{{ver|11.0.5}}
+{{ver|11.0.4}}
+{{ver|11.0.3}}
+{{ver|11.0.2}}
+{{ver|11.0.1}}
+{{ver|11.0}}
+{{ver|10.8.0}}
+{{ver|10.7.1}}
+{{ver|10.7.0}}
+{{ver|10.6.2}}
+{{ver|10.6.1.1}}
+{{ver|10.6.1}}
+{{ver|10.6.0}}
+{{ver|10.5.6}}
+{{ver|10.5.5}}
+{{ver|10.5.4}}
+{{ver|10.5.3}}
+{{ver|10.5.2}}
+{{ver|10.5.1}}
+{{ver|10.5}}
+{{ver|10.4.1}}
+{{ver|10.4.0}}
+{{ver| 10.3.4}}
+{{ver|10.3.3}}
+{{ver|10.3.2}}
+{{ver|10.3.1}}
+{{ver|10.3}}
+{{ver|10.2.1}}
+*Fixed Twin Vipers having redundant flashlight.
+{{ver| 10.2.0}}
+{{ver| 10.1.3}}
+{{ver| 10.1.2}}
+{{ver| 10.1.1}}
+{{ver| 10.1.0}}
+{{ver| 10.0.7}}
+{{ver| 10.0.6}}
+{{ver| 10.0.5}}
+{{ver| 10.0.4}}
+{{ver|10.0.3}}
+{{ver|10.0.2}}
+{{ver|10.0.1}}
+|update number= 10.0}}
+{{ver|9.8.5}}
+{{ver|9.8.4}}
+{{ver|9.8.3}}
+{{ver|9.8.2}}
+{{ver|9.8.1}}
+{{ver|9.8}}
+{{ver|9.7.3}}
+{{ver|9.7.2}}
+{{ver|9.7.1}}
+{{ver|9.7}}
+{{ver|9.6.1}}
+{{ver|9.6}}
