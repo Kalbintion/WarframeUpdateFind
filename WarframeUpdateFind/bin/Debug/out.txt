@@ -1,4 +1,4 @@
-Looking for:  twin vipers
+Looking for:  thief
 {{ver|19.1.1.1}}
 {{ver|19.1.1}}
 {{ver|19.1}}
@@ -174,9 +174,12 @@ Looking for:  twin vipers
 {{ver|17.9}}
 {{ver|17.8.1}}
 {{ver|17.8}}
+*Fixed the Master Thief Mod visuals not properly displaying for Hosts and Clients.
 {{ver|17.7.1}}
 {{ver|17.7}}
+*Fixed the Master Thief Mod not properly unlocking chests in secret rooms.
 {{ver|17.6.2}}
+*Fixed the Master Thief Mod not unlocking lockers in secret rooms.
 {{ver|17.6.1}}
 {{ver|17.6}}
 {{ver|17.5.5}}
@@ -206,16 +209,18 @@ Looking for:  twin vipers
 {{ver|17.1.2}}
 {{ver|17.1.1}}
 {{ver|17.1}}
+* Fixed the Master Thief Mod not properly showing locker colors changing from Red to Green on Clients.
 {{ver|17.0.5}}
 {{ver|17.0.4}}
 {{ver|17.0.3}}
 {{ver|17.0.2}}
 {{ver|17.0.1}}
 {{ver|17.0}}
+*Master Thief
 {{ver|16.11.5}}
 {{ver|16.11.4}}
 {{ver|16.11.3}}
-|update number = 16.11.2}}
+{{ver| 16.11.2}}
 {{ver|16.11.1}}
 {{ver|16.11}}
 {{ver|16.10.2}}
@@ -262,7 +267,7 @@ Looking for:  twin vipers
 {{ver|16.3.5}}
 {{ver|16.3.4}}
 {{ver|16.3.3.1}}
-|update number = 16.3.3}}
+{{ver| 16.3.3}}
 {{ver|16.3.2}}
 {{ver|16.3.1.2}}
 {{ver|16.3.1.1}}
@@ -283,8 +288,7 @@ Looking for:  twin vipers
 {{ver|16.0.3}}
 {{ver|16.0.2}}
 {{ver|16.0.1}}
-|update number =16.0}}
-*The Viper, Dual Vipers and Wraith Twin Vipers have been given a visual and audio overhaul!
+{{ver|16.0}}
 {{ver|15.16.2}}
 {{ver|15.16.1}}
 {{ver|15.16}}
@@ -293,14 +297,15 @@ Looking for:  twin vipers
 {{ver| 15.14.1}}
 {{ver| 15.14}}
 {{ver| 15.13.8}}
-|update number = 15.13.7}}
-|update number = 15.13.6}}
+{{ver| 15.13.7}}
+{{ver| 15.13.6}}
 {{ver|15.13.5}}
 {{ver|15.13.4}}
 {{ver|15.13.3}}
 {{ver|15.13.2}}
 {{ver|15.13.1}}
 {{ver|15.13}}
+The Grineer have put out a capture order for a thief named Maroo - they claim she double crossed them and has sold precious Arcane Codices to the Corpus. Concerned for Maroo's safety - and excited at the idea of a new Arcane Codex - the Lotus is requesting that you bring Maroo in.
 {{ver|15.12.3}}
 {{ver|15.12.2}}
 {{ver|15.12}}
@@ -397,6 +402,7 @@ Looking for:  twin vipers
 {{ver| 14.0.7 & 14.0.7.1}}
 {{ver|14.0.6}}
 {{ver|14.0.5}}
+*Adjusted Kubrow Mod `Thief' values to be display-friendly instead of rounded percents and rewrote Kubrow Thief description to include the % value detail.
 {{ver|14.0.4}}
 {{ver|14.0.3}}
 {{ver|14.0.2}}
@@ -474,6 +480,7 @@ Looking for:  twin vipers
 {{ver|12.0.2}}
 {{ver|12.0.1}}
 {{ver|12.0}}
+*Fixed Master Thief mod ceasing to function after a host migration.
 {{ver|11.9.2}}
 {{ver|11.9 & 11.9.1}}
 {{ver|11.8.3}}
@@ -488,7 +495,6 @@ Looking for:  twin vipers
 {{ver|11.6.1}}
 {{ver|11.6}}
 {{ver|11.5.8}}
-- Score 100 points and you will earn a set of Wraith Twin Vipers!
 {{ver|11.5.7}}
 {{ver|11.5.6}}
 {{ver|11.5.5}}
@@ -537,7 +543,6 @@ Looking for:  twin vipers
 {{ver|10.3.1}}
 {{ver|10.3}}
 {{ver|10.2.1}}
-*Fixed Twin Vipers having redundant flashlight.
 {{ver| 10.2.0}}
 {{ver| 10.1.3}}
 {{ver| 10.1.2}}
@@ -550,7 +555,7 @@ Looking for:  twin vipers
 {{ver|10.0.3}}
 {{ver|10.0.2}}
 {{ver|10.0.1}}
-|update number= 10.0}}
+{{ver| 10.0}}
 {{ver|9.8.5}}
 {{ver|9.8.4}}
 {{ver|9.8.3}}
@@ -563,3 +568,4 @@ Looking for:  twin vipers
 {{ver|9.7}}
 {{ver|9.6.1}}
 {{ver|9.6}}
+*[[Master Thief]] - % chance to unlock locked lockers.

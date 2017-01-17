@@ -16,7 +16,7 @@
         Console.WriteLine("Looking for: " + toFind)
 
         For i = 0 To patchLines.Length - 1
-            If patchLines(i).ToLower().Contains("update number") Then Console.WriteLine(patchLines(i).Replace("|update number  =", "{{ver|") & "}}")
+            If patchLines(i).ToLower().Contains("update number") Then Console.WriteLine(System.Text.RegularExpressions.Regex.Replace(patchLines(i), "\|update number\s*?\=\s*?", "{{ver|", Text.RegularExpressions.RegexOptions.IgnoreCase) & "}}")
             If patchLines(i).ToLower().Contains(toFind) Then Console.WriteLine(patchLines(i))
         Next
     End Sub
