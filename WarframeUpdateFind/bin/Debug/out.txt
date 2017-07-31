@@ -1,74 +1,97 @@
-Looking for: gram
-{{ver|19.1}}
-*Fixed incorrect use of grammar in Valkyr's Passive description. 
-{{ver|The Silver Grove 4}}
-*Fixed a grammatical error in the Manduka Pack description.
-{{ver|The Silver Grove 2.1|fix}}
-*Fixed the Synoid Heliocor hologram not displaying the Cephalon Suda symbol. 
-{{ver|The Silver Grove 4|fix}}
-*Fixed various localization typos and grammar errors. 
+Looking for: dagger
+{{ver|Octavia's Anthem}}
+*Nyx's Psychic Daggers now only seek target under reticule. If no target is found, they will fire off in a random direction in Conclave.
+{{ver|Recurring Nightmares}}
+*Gleaming Blight can now be equipped on the Rakta Dark Dagger. 
+{{ver|The Index Preview 4|fix}}
+*Increased the Shield steal amount of the Rakta Dark Dagger in Conclave.
+{{ver|The Index Preview}}
+*Increased visibility of Nyx's psychic daggers in Conclave.
+{{ver|The Silver Grove 2}}
+'''[[Rakta Dark Dagger]]''' - Infiltrate undetected; reduced visibility when held. Then strike with confidence; hits to irradiated targets restores shields and creates overshields. '''(Weapon Bonus by Design Council collaboration)'''
+{{ver|Specters of the Rail 4|fix}}
+*Fixed missing sounds on Fang Prime / Dual Ether Dagger melee attacks.
 {{ver|Specters of the Rail }}
-The Louvre, The Met - and now, The Orbiter. Create your own art exhibit chez vous (too french?) with the new Orbiter Gallery! Whether your skills come from Instagram, Photoshop, or Snapchat, use filters, cropping, and other editing tools to customize each Display how you'd like! Each picture can be Displayed in a variety of formats:
-{{ver|18.6.2|fix}}
-*Fixed a grammatically incorrect Ordis subtitle.
-{{ver|18.3}}
-*The Scindo series, Gram, Galatine, Magistar, Fragor and Jat Kittag have had their damage and Stance damage increased in Conclave.
-{{ver|18.0.4|fix}}
-[[Frost Prime]], [[Titan Extractor Prime]], [[Latron Prime]], [[Reaper Prime]] and the [[Syandana|Misa Prime Syandana]] will all be available for a limited time through our Prime Access Program.  Additionally, the following drops have been made available in the Void for a limited time:
-{{ver|17.5.5|fix}}
-*Fixed holograms created by Nyx's Chaos becoming frozen as per: [https://forums.warframe.com/index.php?/topic/539097-are-nyx-holograms-supposed-to-be-frozen/ this thread]
-{{ver|17.2.4}}
-*Fixed a number of issues with melee items/weapons that result in radial damage. Radial damage values have been significantly lowered on melee ground attacks, especially for the Galatine, Gram, and Jat Kittag. Exact ranges are as follows:
-**Gram and Galatine from 5 meters to 4 meters.
-{{ver|16.7.2}}
-*Fixed a couple typos and grammar errors in Simaris' Synthesis lore.
-*Fixed grammatical errors in the description of Trials in the Codex.
-{{ver|16.4}}
-*Increase Stamina drain when blocking with the Gram in PvP.
-*Fixed some grammatical errors in the Codex description of Defense Missions.
-{{ver|16.3.4}}
-*Fixed 7 day Affinity Booster not working correctly for accounts under the referral program.
-{{ver| 16.3}}
-*Increased the damage of the Gram in PvP.
-{{ver|16.0}}
-*Fixed grammatical error in the Gemini Nikana's Market description.
-{{ver|15.12.3}}
-*Improved NAT-PMP diagnostics to identify when other programs may be interfering with the automatic port-forwarding.
-{{ver|15.1.3}}
-*Fixed minor grammar and typo errors on Training entries.
-{{ver|15.1}}
-*[[Gram]]
-{{ver|14.5.2}}
-*Fixed a grammatical error in the event reward message.
-{{ver|14.0.5}}
-*Fixed grammar errors in the Kubrow Quest intercepted message.
-{{ver|13.9.1|fix}}
-*Changed Cache Sharing to hide extension names so as to prevent any netnanny programs from getting caught on bad words in the program name.
-{{ver|13.6}}
-*Altered the visuals on Bladestorm clones so as to make them appear more like energy holograms and not just duplicates of the Ash model.
-{{ver|13.5.3|fix}}
-*Fixed a minor grammatical error in a Lotus transmission.
-{{ver|13.3.1|fix}}
-*Fixed a number of grammar errors in item descriptions.
+*New Dual Dagger Stance: Spinning Needle
+*Biting Piranha (Dual Daggers)
+*Piercing Fury (Dagger)
+{{ver|18.6.3|fix}}
+*Fixed an issue causing dagger weapons to endlessly loop its equip animation.
+{{ver|18.5}}
+*Increased the damage of daggers and their Stances in Conclave.
+{{ver|18.4.12|fix}}
+*[[Spira Prime|SPIRA PRIME]] - These rare, braided throwing daggers were a favorite tool of high ranking Orokin assassins.
+{{ver|18.1}}
+*Dual Kamas Nari & Vali Skin - Turn the Dual Kamas into a stylish sword and dagger combo with this skin.  Only available in the Loki Deluxe Skin bundle.
+{{ver|17.5}}
+*The Obex, Dual Ether Daggers, Vaykor Hek and Ankyros series can now be used in Conclave.
+{{ver|17.4.5}}
+Spira Throwing Daggers available now!
+A flash of red ribbons dancing in the breeze is the last thing seen by victims of these deadly throwing daggers.
+Add the Spira Throwing Daggers to your Arsenal by visiting the Market today!
+*Reduced the damage of all non-dagger melee weapons in PvP.
+*Added new idle animations to Noble and Agile stances when using throwing daggers.
+{{ver|17.3}}
+**Heartseeker (Daggers only): Lock onto targets at close range with a melee weapon, but reduces blocking effectiveness.
+*The Ceramic Dagger, Dark Dagger, Heat Dagger, Karyst and Sheev can now be used in PvP.
+{{ver|17.0}}
+*'''[[Covert Lethality]]:''' Melee attacks from stealth are always lethal (Daggers only).
+*Fixed Radiation damage effects on swords and daggers lingering after the proc has expired.
+{{ver|15.13}}
+Complete this Quest and you?ll be rewarded with an Ether Dagger Blueprint and a Catalyst Blueprint.
+*Fixed Ceramic Dagger?s weapon trail not quite lining up with the blade as per: [https://forums.warframe.com/index.php?/topic/390688-poor-weapon-trail-animations-thread/ this thread]
+{{ver|15.12.2}}
+*Fixed the weapon trail for the main hand Dual Heat Sword being dagger sized, inside of sword sized.
+{{ver|15.0.5}}
+*Fixed an issue with the incorrect ground hit animation being played for Dual Dagger and Dual Sword ground hit attacks.
+{{ver|15.0}}
+*Dark Dagger: Gleaming Blight: adds 25% status chance
+{{ver| 14.10.3}}
+*Increased default speed of Dagger attacks using the [[Pointed Wind]] stance.
+{{ver| 14.7}}
+* 15 Exposure points: [[Sheev]] Dagger: Built for close combat, the Sheev's plasma blade slices through flesh and armor with equal ease.
+{{ver|14.2}}
+*Tenno Reinforcements: Karyst Dagger! Find it in the Market today for Platinum or Blueprint!
+{{ver|13.1.2|fix}}
+*Tweaked a number of Dagger and Axe parry sound effects.
+{{ver|13.0.5|fix}}
+*Fixed "Dual Daggers" Mod category appearing as a file path in the UI.
+{{ver|13.0.3|fix}}
+*Fixed Heat Dagger front facing finisher attacks not dealing damage
+{{ver|13.0}}
+*Dagger 1: [[Homing Fang]]
+*Dagger 2: [[Pointed Wind]]
+*Dual Dagger 1: [[Gnashing Payara]]
+*Dual Dagger 2: [[Sinking Talon]]
+*New Weapon: [[Nami Skyla|Nami and Skyla]] - Tenno Cutlass and Dagger.
+{{ver|12.5}}
+* Fixed an issue related to client's attempting to attack with Dual Daggers type weapons.
+{{ver|12.3}}
+*Revised name of Zoren Dagger Axe skin, so that we don't have duplicate names (Dagger Axe).
 {{ver|11.3}}
-*Edge lights on Gram now respect the chosen color for Energy.
-{{ver|11.1}}
-*Updated Gram skin to match faction style better. This is automatic, all your Grams are updated!
-{{ver| 10.2.0}}
-*Mods available from the Referral Program can now be found in-game or through Mod *packs in the Market.
-{{ver| 10.1.3}}
-*Added Referral Program link to Contacts overlay
-{{ver| 9.0}}
-*Refined the tint options on the [[Burston]], [[Viper]], [[Gram]], [[Furis]], [[Afuris]], [[Dera]], [[Furax]], and [[Boltor]].
+**Heat Dagger and Dual Heat Swords now deal Fire damage with Charge Attacks and Ground Slams
+{{ver|10.3}}
+*A few Market weapons are being retired: Gorgon, Dual Ether Daggers, Boar, and Machete. You have 7 days to get them before they go into the retirement!
+{{ver| 8.3}}
+*Fixed missing sound effects for [[Fang]] and [[Ether Daggers]] slide attack.
+{{ver| 8.0}}
+*Tenno crafted [[Kunai]] (throwing daggers) available in the market for a silent weapon option in your pistol slot.
 {{ver| 7.11}}
-*Changes to [[Gram]] sounds.
-{{ver| 7.8.1}}
-**Hacking/Cheating bans are now automatic. Our existing cheat/hack detection code that has been tracking hacks and is now configured to take action automatically. Do not run hacking programs while playing Warframe. You will be banned.
+*Fixed electricity FX on [[Dual Ether]] and [[Ether Daggers]].
+{{ver| 7.10}}
+* Fixed FX on Ether Swords and Ether Daggers.
+{{ver| 7.9}}
+*Added Dual Dagger stealth attack (was sharing dual sword stealth attack).
+{{ver| 7.8}}
+*Fixed Dagger Axe blueprint being incorrectly linked to Paris
+{{ver| 7.7.3}}
+*New Weapon: [[Ether Daggers]]
 {{ver| 7}}
-*Sentinels - customize and program a Sentinel "pet" to accompany you on missions.
-{{ver| 6.3|fix}}
-*Remove hum sound from Gram.
-{{ver| 6.3}}
-*Gram hit box improved
-{{ver| 6.2}}
-*Gram: A devastating GreatSword!
+*Fang - a matching pair of razor-sharp daggers with accelerated attack speed.
+{{ver| 6.4}}
+*"Dagger Axe" skins added to the Market for Scindo and Dual Zoren.
+{{ver| 6|fix}}
+*Daggers now bypass armor
+*Heat Dagger added to store
+{{ver| 5.4|fix}}
+*Fix elemental effects not showing on Scindo, Frago and many crafted Swords and Daggers.

@@ -1,4 +1,1746 @@
 {{update
+|update number  =21.2.0.1
+|type           =fix
+|date           =July 26th, 2017
+|forumurl       =https://forums.warframe.com/topic/823165-chains-of-harrow-update-2120-21201/
+|fixes          =
+*Fixed getting an unresponsive screen when attempting to gift. 
+}}
+{{update
+|update number  =21.2
+|type           =
+|date           =July 26th, 2017
+|forumurl       =https://forums.warframe.com/topic/823165-chains-of-harrow-update-2120-21201/
+|title          =
+|image          =JatKusarPoster.png
+|misc           =
+'''Jat Kusar''' - Overwhelm hostiles with this jet-powered sickle and razor-chain weapon. Charged strikes ignite an explosive blast at range.
+
+''The winning Melee entry from ‘The Best Defense’ contest is here! Concepted and submitted by fellow Tenno SilverBones, this Grineer inspired Plasma Kusurigama is the embodiment of murderous, Grineer ingenuity.''
+
+'''Original Artwork:'''
+[[File:OAJatKusarOne.png|center|660px]]
+[[File:OAJatKusarTwo.png|center|660px|thumb]]
+|changes        =
+*The Squad player list is now displayed by default! 
+*Hunhow’s Datascape Scene and Harrow’s Temple Scene are now tradable!
+*Swapped out the Lith S1 Relic given upon completion of the Mars Junction to a Lith A2 Relic due to the Lith S1 being vaulted.
+*Approximated certain lighting calculations when using Low Shader Quality to improve performance; this will be most helpful for the Earth tileset because of the day/night cycle but there should be improvements throughout all remastered tilesets.
+*Optimized shader memory by 30-50MB depending on settings.
+*Optimized render performance slightly for all platforms.
+*Adding friends through the recent players list or Chat now gives the opportunity to add a Friend Note as well.
+*Harrow will now detach from his Wall Latch when Channeling his Thurible to avoid awkward animations.
+*In-Game Progress can now be viewed in Archwing missions.
+*Forma count can now be seen on weapons and Warframes in the Inventory screen (similar to in the Arsenal). 
+*Tweaked the Volt Arrester Helmet tintmask.
+*Reduced the amount of cloth movement on Harrow when viewing the Star Chart.
+
+;Earth Tileset Changes & Fixes
+*Continued to optimize the Earth remastered tilset to improve performance and lighting quality.
+*Fixed crash or full system hang that could occur if too many PhysX Effects were created.
+*Fixed an improper Loot Crate placement and spawning in the Earth Forest tileset. 
+*Fixed numerous lighting issues and floating meshes on the Earth Forest tileset.
+*Fixed escapable level holes in Iron Wake and the Earth Forest tileset.
+*Fixed an incorrectly placed teleporter in the Earth Forest tileset.  
+|fixes          =
+*Fixed Harrow holding a shield (Silva & Aegis, etc) in an ancient style which history has long since forgotten (probably because shields are not useful if you hold them backwards).
+*Fixed Mesa’s Peacemaker jamming if the Shift key is held while activating the ability. 
+*Fixed being able to get permanently stuck switching weapons when spamming Mesa’s Peacemaker.
+*Fixed instances where the Client would administer more damage to Lephantis than the Host.
+*Fixed the Codex not showing that certain Acolyte Mods also drop from Lua Spy missions.
+*Fixed Oberon being able to linger in an infinite bleedout state and be able to revive Sentinels. 
+*Fixed spawning 3 enemies of different factions simultaneously spawning in the exact same spot in the Simulacrum. 
+*Fixed clicking Chat links for Mods creating the preview behind the Chat window.
+*Fixes towards Smeeta Charm buffs not consistently applying to the Operator. 
+*Fixed seeing an error when attempting to deploy an Extractor after zooming out of a planet that was not fully completed.
+*Fixed Ash’s Fatal Teleport Augment causing enemies to teleport up high if cast from up above.
+*Fixed (for real) Primary Mods with Fire Rate buffs applying 3x to Ivara's Artemis Bow instead of 2x.
+*Fixed duplicate swords appearing in the Second Dream cinematic. 
+*Fixing another instance of missing Glaive name in Dual-Wield mode after reviving. 
+*Fixed a rare instance of the Glaive not being thrown in Dual-Wield mode.
+*Fixed a rare issue in Dual-Wield mode where your normal equipped Melee attacks wouldn't combo. 
+*Fixed Clients being able to obtain Affinity in the Simulacrum (which wouldn't actually apply) but could cause items to level up in the mission temporarily and breaking the Arsenal.
+*Fixed Simulacrum enemy selector not remembering the previously selected enemies.
+*Fixed being able to spawn unlimited enemies in the Simulacrum.
+*Fixed the Mandachord not working in the Simulacrum. 
+*Fixed not being able to immediately spawn more Simulacrum enemies after killing them.
+*Fixed being unable to open the main menu in the Dojo if anyone is kneeling in the Dueling area.
+*Fixed Trick Mag applying to your Primary weapon when equipped on the Cycron.
+*Fixed Cephalon Simaris' material appearing incorrect in the New Strange diorama.
+*Fixed grammar when selecting an Arcane Helmet to convert in Foundry.
+*Fixed Sands of Inaros quest tomb drawings rendering over top of the fog.
+*Fixed Sentinel flare being too bright when viewing them in the Market. 
+*Fixed Large Energy Restores not providing detailed information when viewed in the Foundry. 
+*Fixes towards the Kyroptera Syandana not sitting correctly on Warframes. 
+*Fixed Clients not seeing Rampart’s destruction FX. 
+*Fixed Elemental FX not displaying on the Palatine Hammer Skin.
+*Fixed Excalibur’s Chromatic Blade Augment not adding Elemental FX to the energy wave.
+*Fixed Operators temporarily getting into a bad ledge-climbing animation when Void Dashing in some cases.
+*Fixed Clients seeing a floating Operator head for a frame or 2 when Transferring to their Operator for the first time.
+*Fixed Operators being able to use Limbo's Rift portal to enter the Rift.
+*Fixed enemy locations in the Codex being confused by past events (ie: there aren't really any Nox on Phobos).
+*Fixed Defense objective terminals dancing to Octavia’s Resonator as per: https://forums.warframe.com/topic/820849-grineer-terminals-dancing-to-octavias-music/
+*Fixed Credit total not updating for players attempting to sell items in the Dojo.
+*Fixed Syndicate Medallions spawning in the same spot as Cephalon Fragments. 
+*Fixed a case of being able to get out of the level bounds using Titania's Razorwing.
+*Fixed the squad Chat not updating when re-joining after being in a squad of 3 with the squad Chat window closed, while the 4th player is joining.
+*Fixed a script error when attempting to Upgrade your Companion in the Relay Arsenal. 
+*Fixed Pet names with ‘-’ being accepted.
+*Fixed not being able to duel players in the Dojo if you are the only 2 present. 
+*Fixed Clients not having infinite consumables in Simulacrum.
+*Fixed spot loading the Arsenal when backing out of the Mods screen that was opened from the Upgrade screen.
+*Fixed clipping into walls/staircases when performing a Melee finisher.
+*Fixed not Transferring in front of your Warframe as the Operator. 
+*Fixed a case of Vay Hek not spawning in his Assassination mission. 
+*Fixed some enemies in the Codex having their Health and Shields listed as ‘None’.
+*Fixed normal Grineer enemies spawning on the Mariana Earth node as opposed to Drekar Grineer.
+*Fixed Reactant buff icon not displaying after collecting 10 Reactant for the second time in an Endless Fissure mission. 
+*Fixed Reactant amount and buffs disappearing on squad members if they or you die and respawn in an Endless Fissure mission.
+*Fixed missing Nullifier bubbles in Hijack Sortie missions.
+*Fixed Clients sometimes not dealing the right amount of damage. 
+*Fixed script error when trying to whisper someone with a Riven or Song link in the message.
+*Fixed a crash in the Simulacrum.
+}}
+{{update
+|update number  = 21.1.1
+|type           = fix
+|date           = July 20th, 2017
+|forumurl       = https://forums.warframe.com/topic/820507-chains-of-harrow-hotfix-2111/
+|misc           =
+;Simulacrum & Captura Changes:
+
+*Enemies will no longer automatically be killed by returning to the Arsenal area, and Host will not automatically kill enemies by using the enemy selector console. 
+*Enemies can be killed by the Host by selecting the 'Kill Enemies' button in the enemy selector console. 
+*The 'Pause AI' button will now dynamically pause and unpause any currently existing enemies.
+|changes        =
+*Companion Kavats will now get knocked back and dissolve (instead of just vanishing) when they sadly die because you either left them or didn’t make it in time. 
+*Reload sounds will now play properly when Dual-wielding the Zakti with thrown Melee weapons.
+*Battalyst and Conculyst Sentient weapons will now disappear after a minute as opposed to lingering on the ground indefinitely. 
+*Improved texture-streaming responsiveness.
+*Improved Channeling FX on Nova Prime and Oberon Prime. 
+*Optimized render performance in cases where dynamic lights were destroyed.
+|fixes          =
+*Fixed a soft lock when attempting to craft Specters.
+*Fixed a crash that would occur when activating Excalibur’s Exalted Blade (and other similar abilities) then entering the Arsenal and going to the Melee weapon upgrades screen in Captura and the Simulacrum.
+*Fixed not receiving Syndicate Standing after completing a Syndicate mission. 
+*Fixed Mesa’s Peacemaker not acquiring new targets if it fails to find a target within a short period of time after firing.
+*Fixed enemies affected by Nyx’s Chaos, Loki’s Radial Disarm, Naramon Mind Spike as well as Radiation procs not taking increased damage from faction damage Mods.
+*Fixed being able to get infected by a cyst in Captura and the Simulacrum.
+*Fixed the Zakti projectiles not hitting enemies in Mag’s Magnetize field. 
+*Fixed the Zakti projectiles never exploding with toxic gas when killing enemies or hostile objects. 
+*Fixed an issue that was causing all Sentient arms to no longer be destructible.
+*Fixed Syndicate Secondaries losing their unique skin in Dual-Wield and looking like the normal version of the weapon.
+*Fixed certain weapons firing "out of the Rift" when Limbo's Stasis is disabled. 
+*Fixed the Mastery Sigil appearing unranked on Titania and her Skins.
+*More fixes towards Energy color issues when using Core Vent on the Elytron.
+*Fixed Armor attachments appearing dark in the Star Chart when you zoom out of a region. 
+|conclave       =
+*Reduced the AoE damage radius of the Zakti in Conclave
+}}
+{{update
+|update number  =21.1.0.1
+|type           =fix
+|date           =July 19th, 2017
+|forumurl       =https://forums.warframe.com/topic/820014-chains-of-harrow-update-2110/
+|changes        =
+*Improved the cloth physics on the Mozi Syandana.
+|fixes          =
+*Fixed a crash upon reviving as Inaros. 
+}}
+{{update
+|update number  =21.1
+|type           =
+|date           =July 19th, 2017
+|forumurl       =https://forums.warframe.com/topic/820014-chains-of-harrow-update-2110/
+|image          =GuandaoCollectionPoster.png
+|misc           =
+Channel your inner crimson warrior with the new Guandao Collection! 
+
+Slice through your enemies with the Guandao, a towering polearm, or take them out from a distance with the Zakti pistol and its lethal toxicity. Adding the Mozi Syandana will ensure your enemies only see a flash of red before their last moments, if they see anything at all…
+
+;The Guandao Collection includes&#58;
+*'''Guandao Polearm''' - Harvest the enemy with this towering polearm.
+*'''Zakti Pistol''' - Fires razor-sharp darts that anchor themselves in their target before erupting in a plume of toxic gas.
+*'''Mozi Syandana''' - Windswept ribbons of crimson evoke the war-kites of ancient Earth.
+
+Visit the Market today to claim this Collection or each new item individually! 
+
+The Guandao Polearm and Zakti Pistol can also be crafted in the Tenno Research Lab in your Dojo!
+|additions =
+*You can now select 'Friendly Fire', 'Warframe Invincibility', 'Pause AI', and 'Kill Enemies' in the Simulacrum enemy selector screen. For Multiplayer Simulacrum, the Host will be able to select these options.
+*You can now select 'Pause AI' and 'Kill Enemies' in Captura via the enemy selector screen. For Multiplayer Captura, the Host will be able to select these options.
+|changes        =
+*Improved the Smeeta Kavat Mischief buff for Operators. Relevant buffs on the Warframes will always be transferred to the Operator and vice versa.
+*Mastery Rank of each Dojo Research item is now shown in Clan Research selection screen.
+*Harrow's smoke FX during his Thurible cast can be seen by other players now.
+*Made optimizations to Chat to improve performance when users join/leave the current channel.
+|fixes          =
+*Fixed attempting to launch Solo missions while in a squad causing the Star Chart UI to become unresponsive for the Host and causing Client to load into a black screen.
+*Fixed a crash that could occur if many enemies were spawned at once in the Simulacrum.
+*<s>Fixed being able to re-run an Alert/Sortie/Syndicate mission again right after completing it. It’s also worth noting that rewards would not be given out twice in this situation.</s> '''Rewording for clarity:''' Fixed a super rare edge-case where the Sortie/Alert/Syndicate mission would appear as incomplete, even though you just completed it.
+*Fixed having no objective in Sabotage/Invasions missions.
+*Fixed not being able to complete Asteroid Mobile Defense missions. 
+*Fixed the Cerata having 20% Status Chance when it should be 30%.
+*Fixed Excalibur getting stuck in Slash Dash (and thus being invulnerable) if it was cast with no targets and the player took damage right after casting.
+*Fixed Companion Pets insta-dying in Kuva Siphon missions (for real this time).
+*Fixed Sheev, Snipetron and Dex Dakra displaying an incorrect Riven Disposition.
+*Fixed Primary Riven Mods with Fire Rate buffs applying to Ivara's Artemis Bow.
+*Fixed regular Primary Mods with Fire Rate buffs applying 3x to Ivara's Artemis Bow instead of 2x.
+*Fixed not being able to fire until you recast Mesa’s Peacemaker if you entered bleedout when Peacemaker is active.
+*Fixed Nidus' Parasitic Link on allies being terminated early if Harrow uses Covenant.
+*Fixed missing rear counter Finishers for Ancients/Moas/Kubrows/Chargers for the Blind Justice Nikana Stance.
+*Fixed Viral Status Effects being able to straight up kill you or put you into bleedout.
+*Fixed Eximus units having drops in the Simulacrum.
+*Fixed Sortie bosses not shutting up after switching World State Window tabs (or cancelling with ESC or pressing WSW minimize button).
+*Fixed being able to walk through Defense Targets after a Host migration has occurred.
+*Fixed Clients switching between Warframes sometimes appearing to have Equinox's skirt (sorry for ruining the fun).
+*Fixed Mastery Sigils not displaying properly on some Warframes.
+*Fixed black meshes appearing in the Lua Stealth Challenge room.
+*Fixed cases of excessive spot-loading when transitioning from the Mod Station to Arsenal.
+*Fixed Equinox/Nidus appearance being reset in the Arsenal when equipping a new Helmet/Skins/etc.
+*Fixed a frame or two of animation popping and motion blur on Nidus' flaps when previewing or switching Skins/Helmets/etc in the Arsenal.
+*Fixed incorrect Energy color when using Core Vent on the Elytron. 
+*Fixed Chat link/Emote auto-complete adding a space at the end of the message instead of after the link.
+*Fixed Chat link suggestions breaking when a unicode character appears before them.
+*Fixed some Stance Mods not appearing as ‘New’.
+*Fixed the Heavy Caliber Mod showing Accuracy stat twice.
+*Fixed some Mods having offset description text.
+}}
+{{update
+|update number  =21.0.9
+|type           =fix
+|date           =July 17th, 2017
+|forumurl       =https://forums.warframe.com/topic/819116-chains-of-harrow-hotfix-2109/
+|changes        =
+*Operators are now affected by the Smeeta Kavat Mischief/Charm buffs.
+*Improved and widened the Reactant marker visibility range.
+*Improved Kavor Defectors colliding with players and each other.
+*Improved enemies for targeting Atlas' Tectonic Bulwarks so they shouldn't get stuck (at least as often).
+
+;Opticor Change:
+*Opticor now benefits from Critical Chance / Critical Chance Multiplier Mods (the existing beam always did but the radial AoE damage did not).
+
+;Panthera Change:
+*Panthera Alt-Fire will now benefit from weapon explosion radius Mods.
+|fixes          =
+*Fixes towards Chat sometimes spontaneously not working.
+*Fixed volumetric lighting not working properly when in DX10.
+*Fixed being able to use Atlas' Tectonics Bulwark to prevent Defectors from bulwarking<sup>[sic]</sup> through doorways. The Bulwark wall now detects Defectors and the wall will collapse.
+*Fixed a case where Atlas’ Tectonic Bulwark walls can have weird targeting from enemies, causing them to either not see the wall or attack it in incorrect ways (eg. shooting it when they can melee it).
+*Fixed being stuck in a continuous Emote state upon selecting a looping Emote like the Ki’Teer Presence or Meditating Emote.
+*Fixed the Scourge not being affected by Heavy Calibers accuracy reduction.
+*Fixed UI displaying 227 total missions playable when there are actually only 226.
+*Fixed several issues with in-world markers for Hosts and Clients.
+*Fixed certain weapons shrinking when applying skins on them.
+*Fixed seeing duplicate FX for Harrow’s Covenant as Client.
+*Fixed a missing blocking volume that was allowing players to go out of bounds in the Earth Forest tileset.
+*Fixed Nyx’s Mind Control FX lingering on Ramparts.
+*Fixed the Hyena Sigil FX not fading enough near the edges.
+*Fixed missing muzzle flash on the Tigris Prime.
+*Fixed buff indicator for the Zenith disc lifespan not being removed if you recall the disc manually.
+*Fixed Relic refinement sort by name being inconsistent, and list issue creating a visual copy of a Relic in the grid.
+*Fixed Clients setting Exterminate markers on enemies who don't count towards mission progress.
+*Fixes towards Equinox’s cloth getting stuck between legs.
+*Fixed Equinox's mesh being reset to the mixed form when previewing Helmets/Skins/etc in the Arsenal.
+*Fixed Warframes in Landing Craft/Relay getting stuck in a weird animation state after exiting the Arsenal quickly with only a Melee weapon equipped.
+*Fixed hitches when scrolling through Sigils in the Arsenal.
+*Fixes towards the Grax Mirage skin to better match the original Steam Workshop images.
+*Fixed Operator Void Beam not using Energy properly in the Simulacrum.
+*Fixed Clients being able to use Transference while wall clinging in order to float.
+*Fixed using the Arsenal as Client causing permanent invincibility in the Simulacrum.
+*Fixed a crash that could occur when starting a Dojo duel.
+*Fixed the Host experiencing a significant hitch when the Client finishes loading into a Dojo duel.
+*Fixed two Earth Forest tilesets with broken connections to portals which caused issues with objectives and marker pathing.
+*Fixes no enemies sometimes spawning in Earth Forest Exterminate until near the extraction room.
+*Fixed some positioning of weapon trails on sparring weapons (Obex, Kogake, Hirudo, etc).
+*Fixed black and untextured wreckage in Corpus Archwing tilesets.
+*Fixed the Javlok playing a weird animation when quickly cycling through ‘Randomized’ color options.
+*Fixed the Scourge damaging or killing players when picking it up while paused in Limbo’s Rift before it hits the ground.
+*Fixed the Sari Syandana covering the pause menu when playing Solo. The wings will now close a lot faster when pausing.
+*Fixed the Scourge and Cycron Status lasting longer for the Host.
+*Possible fix for Companion Pets being insta-killed in some rare cases (without going into bleedout).
+*Fixed a localized typo of Chroma in his Helmet description text.
+|conclave       =
+*Increased ammo capacity of Pyrana in Conclave.
+*Fixed Oberon’s Reckoning not lifting enemies in Conclave.
+*Fixed Oberon’s Reckoning not being terminated if Oberon was killed during the cast in Conclave.
+}}
+{{update
+|update number  =21.0.8.1
+|type           =fix
+|date           =July 13th, 2017
+|forumurl       =https://forums.warframe.com/topic/817221-chains-of-harrow-hotfix-2108-21081/
+|misc           =
+;Riven Fixes:
+*Snipetron Rivens are now an option for Rifle Rivens! 
+|fixes          =
+*Fixed many weapons not being visible (bows in particular).
+*Fixed Kuva Braids randomly summoning Guardian Eximus<sup>[sic]</sup>.
+*Fixed becoming permanently invisible if any invisible ability affecting you ends while you are aiming with a scanner.
+}}
+{{update
+|update number  = 21.0.8
+|type           = fix
+|date           = July 13th, 2017
+|forumurl       = https://forums.warframe.com/topic/817221-chains-of-harrow-hotfix-2108/
+|misc           =
+;Riven Fixes
+*Fixed missing Sheev and Dual Heat Sword Rivens.
+*Fixed Dark Split Sword Rivens having no effect when equipped.
+|changes        =
+*The Stalker can no longer apply Nyx's passive to disarm enemies hit with Absorb due to being so powerful it crashed your game. Stalker pls.
+*Removed the Chat Relay Message of the Day (MoTD) when in Iron Wake.
+|fixes          =
+*Fixed an issue where Clients downed while using Excalibur’s Exalted Blade, Wukong’s Primal Fury, or Valkyr’s Hysteria would be unable to switch weapons when revived.
+*Fixed players suffering from low FPS resulting in slow casting times for Nidus’ Virulence.
+*Fixed low FPS affecting Mesa’s Peacemaker damage per second.
+*Fixed a couple cases where abilities could become permanently blocked in Archwing.
+*Fixed Syandanas being huge for Clients joining in progress in Archwing.
+*Fixed elevators in the Grineer Sealab tileset not displaying context action correctly.
+*Fixed fog problems on some systems running DirectX 10.
+*Fixed Chat not immediately switching to the Squad channel when in the loading screen.
+*Fixed the TennoCon 2017 Syandana bunching up when equipped on Mesa.
+*Fixed Operator not continuing to sprint after jumping if the player was and is still holding the sprint key before they jumped.
+}}
+{{update
+|update number  = 21.0.7
+|type           = fix
+|date           = July 13th, 2017
+|forumurl       = https://forums.warframe.com/topic/817066-chains-of-harrow-hotfix-2107/
+|misc           =
+;Opticor Changes and Fixes
+*Opticor beam now has a radius (thicker more cylinder shaped beam) that will allow you to hit more enemies with a single beam.
+*Increased the Opticor AoE damage radius from 3 meters to 5 meters.
+*Critical Chance and Critical Damage Multiplier now apply to the AoE.
+*Reduced Ammo capacity to 200.
+*Fixed being unable to destroy Nullifier bubbles with the Opticor.
+*Fixed being unable to kill enemies inside a Nullifier bubble or Eximus Snow Globe with the Opticor. This also fixes being unable to hit Lephantis or Sargas Ruk at times.
+
+;Riven Fixes
+*Fixed missing Riven for Broken War.
+*Fixed missing Riven for Dex Dakra.
+|additions      =
+*Added a functional Arsenal in Captura via the pause menu. You can also access this menu Arsenal in the Simulacrum.
+|changes        =
+*Chat will automatically rearrange and switch to the Squad tab when loading into a mission.
+*Optimized mission load times and reduced memory usage dramatically.
+*Made several small performance improvements for the remastered Earth tileset (more to come).
+*Updated the Frost Zastruga Helmet, Ersatz Loki Helmet, and Zener Volt Skin at each creator’s request.
+|fixes          =
+*Fixed some cases of network timeout on joining missions with low-end computers (especially when the drivers don't support a shader cache).
+*Fixed rare cases of invites not being received when in a Relay. 
+*Fixed not being able to use the Codex Scanner to scan Ayatan Statues and other pickups.
+*Fixed Vay Hek not spawning 3 times before his final battle and not entering his Terra Frame Phase when playing his boss fight.
+*Fixed the water not draining for Clients after defeating Vay Hek on his Earth boss fight.
+*Fixed items earned in mission not saving after dying as the Operator in the last stage of the Chains of Harrow quest.
+*Fixed not being able to deploy Extractors on Earth.
+*Fixed the Nukor creating a ton of FX if it kills something while it's been paused by Harrow's Condemn ability.
+*Fixed being able to invite players to Iron Wake before they have progressed in Chains of Harrow.
+*Fixed an issue that made you use the Melee charge animation instead of a normal attack animation when quickly pressing Melee after a slide attack in Dual-Wield mode.
+*Fixed casting and deactivating Excalibur’s Exalted Blade, Wukong’s Primal Fury, or Valkyr’s Hysteria while in Dual-Wield mode resulting in the UI stating the name of your Pistol and ability used.
+*Fixed the Palatine Hammer Skin not applying correctly to the Sibear.
+*Fixed some clipping issues with the TennoCon 2017 Syandana.
+*Fixed incorrect projectile sounds with the Zarr and Knell.
+*Fixed no results displaying after Transmuting in the Relay.
+*Fixed Ratals being unable to correctly roll down slopes.
+*Fixed being unable to spawn Eximus units in the Simulacrum.
+*Fixed some cases of NPCs falling through the floor after entering cover.
+*Fixed Vor’s Prize tutorial hints clipping through the environment.
+*Fixed descriptions for Ammo Restores to display the correct values.
+*Fixed the minimap appearing displaced in the Relay if your HUD scale is over 100.
+*Fixed the Sands of Inaros quest description having the wrong tomb location text.
+*Fixed the ‘Offline Mod Bench’ appearing as a placeholder text.
+*Fixed placeholder text appearing when attempting to select the ‘Filter’ button in Chat.
+*Fixed Mag’s Magnetized Discharge Augment not triggering when using the "use selected ability" key.
+*Fixed being able to spawn inside of a wall in the Mastery Rank 24 test.
+*Fixed an invisible Corpus doorframe in the Shipyard tileset.
+*Fixed enemies not playing their injury animation sometimes.
+*Fixed a script error when entering Iron Wake.
+*Fixed a script error when casting Harrow’s Thurible.
+*Fixed a script error when casting Inaros’ Sandstorm.
+*Fixed a script error when casting Nyx’s Psychic Bolts.
+*Fixed a script error when casting Valkyr’s Rip Line.
+*Fixed a script error when casting Ivara’s Artemis Bow.
+*Fixed a script error when casting Oberon’s Renewal.
+*Fixed a script error when casting Volt’s Shock.
+*Fixed a script error when casting Rhino’s Charge.
+*Fixed a script error when casting Inaros’ Scarab Swarm.
+*Fixed a script error when throwing the Ferrox.
+|conclave       =
+*Fixed a script error when casting Inaros’ Devour in Conclave.
+*Fixed Octavia’s Amp ability applying buffs to players on the opposite team in Conclave.
+*Fixed having the same Primary weapon equipped for both Cooperative and Conclave resulting in a visual error on Conclave weapon Mods.
+}}
+{{update
+|update number  =21.0.6
+|type           =fix
+|date           =July 7th, 2017
+|forumurl       =https://forums.warframe.com/topic/814223-chains-of-harrow-hotfix-2106/
+|changes        =
+*Harrow's Covenant now applies to Companions.
+*Added weekly Defection leaderboards (scored the same as the Pacifism Defect).
+*Added Affinity rewards for each Defection squad evacuated.
+*Optimized away 1MB of reserve memory.
+*Integrated localization updates.
+|fixes          =
+*Fixed the Synthesis Scanner not scanning Simaris targets.
+*Fixed Defection losing track of a Kavor when two squads extracted together and both the 4th and 5th defector arrived at the extraction point within half a second of each other.
+*Fixed an endless loading screen when trying to load into Galleon survival for a Clem weekly mission.
+*Fixed a broken foliage material that could cause some graphics drivers to crash.
+*Fixed chat text not appearing while in gameplay in some cases.
+*Fixed Toxin Resistance's description (added % for clarity).
+*Fixed script error in Harrow's Covenant.
+}}
+{{update
+|update number  =21.0.5
+|type           =fix
+|date           =July 6th, 2017
+|forumurl       =https://forums.warframe.com/topic/813821-chains-of-harrow-hotfix-2105/
+|changes        =
+*Optimized a number of PBR textures to improve frame-rate for remastered tilesets on slower PCs.
+*Reduced Opticor charge time of from 2.5 to 2 seconds.
+*Temporarily removed Opticor beam thickness until it can be tested more thoroughly.
+*Narrowed camera view cone and adjusted placement of some cameras in Corpus Spy vaults.
+*Added controller support to parts of the Chains of Harrow quest.
+*Added an option to disable Razer Chroma.
+*Optimized mission loading slightly for people using High Shader Quality.
+*Tweaked finisher animations for several weapons.
+*The Baro Ki'Teer's countdown in Relays now shows where he will arrive in next.
+|fixes          =
+*Fixed a number of performance regressions related to physics interactions between objects; in some cases this would cause a dramatic but temporary drop in frame-rate.
+*Fixed not being able to hit Nullifier bubbles and other targets with melee weapons and the Opticor.
+*Fixed some metal surfaces in the Corpus Spy vaults being transparent to security cameras.
+*Fixed occasional Network Not Responding messages for people who have linked their account to Twitch.
+*Fixed transmissions in certain quests being stuck on repeat (eg: Sands of Inaros).
+*Fixed pillar hit-detection in the Cunning Drift Hall of Ascension (more improves to follow).
+*Fixed Sentinel Precepts being activated at the start of Archwing missions.
+*Fixed some cases where you would mount ziplines such as Ivara's Dashwire and then be unable to move from that spot.
+*Fixed Companions in the Simulacrum sometimes dying upon entering the Arsenal.
+*Fixed Companions floating slightly off the ground in the Simulacrum Arsenal.
+*Fixed Nox's scream not being ducked during transmissions.
+*Fixed rare crashes on level load.
+*Fixed certain effects in the Chains of Harrow quest showing up prematurely.
+}}
+{{update
+|update number  = 21.0.4
+|type           = fix
+|date           = July 5th, 2017
+|forumurl       = https://forums.warframe.com/topic/813247-chains-of-harrow-hotfix-2104/
+|misc           =
+;A Donda Decoration has been added!
+After completing the [[Chains of Harrow]] quest, visit [[Palladino]] in Iron Wake to purchase your Donda for a small Ducat fee. Shiny for a shiny!
+
+;Harrow Changes
+(Values based on Rank 3 Abilities, lower Ranks adjusted similarly)
+;Penance
+*Increased Duration from Shields by 25%
+*Increased Duration cap from 60 seconds to 120 seconds
+*Increased Fire Rate from 25% to 35%
+*Increased Reload Speed from 50% to 70%
+
+;Thurible
+*Increased Range from 15m to 20m
+*Sped up Energy Channeling by 50%
+*Energy Channeling speed is now affected by Natural Talent
+
+;Covenant
+*Increase Crit per 100 Damage from 1.25% to 1.5%
+
+;Defection Changes & Fixes:
+*Changed Defection squad sizes to a constant 3 in Solo or 4 in Multiplayer.
+*Defection sessions are now joinable until 1 squad is rescued or 3 or more Defectors are killed. This will result in more open Defection sessions to join.
+*Reduced the scans required on the White Charger from 20 to 3.
+*Defection Alerts now count squads rescued instead of individuals rescued. Requirement for normal Alerts is 4 squads (1 squad from A, 1 from B, 2 from C in multiplayer)
+*Fixed no enemies spawning after a Host migration.
+
+;Chains of Harrow Quest Changes (vague for spoiler reason):
+*Increased the amount of Energy returned to the Operator by killing enemies in the Chains of Harrow quest fight from 15 to 30.
+*An objective text will now indicate when a certain mechanic is invulnerable in the Chains of Harrow boss fight.
+*Increased the hit box size of a certain mechanic when invulnerable in the Chains of Harrow boss fight.
+*Red Veil Fanatics now have objective markers on them in the Chains of Harrow boss fight.
+|additions      =
+*Added notification for Energy gained by hitting enemies with Void Dash (it was always 10 energy/enemy but you could never see this).
+|changes        =
+*Optimized potential hitches caused by Infested Spawn Pods.
+*Vor’s Prize quest intro cinematic is no longer skippable.
+*Razer Chroma effects now play in the Main Menu and when Energy color is changed in the Arsenal.
+*Disabled mission failure for taking too long in Mastery Rank Tests.
+|fixes          =
+*Fixed a crash upon opening the Options menu.
+*Fixed some performance issues with melee weapons and in other areas of the game.
+*Fixed the Opticor not having it’s 1m Punch Through.
+*Fixed being able to see other players in Palladino’s Iron Wake room.
+*Fixed caches on Kuva Fortress/Dakata giving rewards from the incorrect table (thereby not dropping Cyclone Kraken as intended).
+*Fixed the Pandero’s reload sounds being too loud.
+*Fixed missing Pandero reload sounds when using it in Dual-Wield.
+*Fixed Pistols having double responses and animation (sounds, reloading, etc).
+*Fixed Harrow’s Thurible Channeling not being cancellable with "use selected ability button."
+*Fixed Harrow’s Thurible remaining in his hand if he enters gets downed while Channeling Thurible.
+*Fixed not receiving the buff after channeling Harrow’s Thurible if a context action is used.
+*Fixed Harrow’s Penance not respecting the duration cap on the initial cast.
+*Fixed being able to damage enemies outside the Rift while you are currently in it.
+*Fixed bad grass lighting in the Forest tileset.
+*Fixed not being able to shoot Sapping Osprey mines.
+*Fixed Harrow’s front cloth clipping through his legs during his Agile animation.
+*Fixed Emotes being disabled for everybody when a Harrow is Channeling his Thurible.
+*Fixed Stalker ‘whooshing’ and other sounds being too loud. Fear the whoosh!
+*Fixed a Corpus door opening incorrectly.
+*Fixed being unable to hit enemies from within the Rift when using Titania’s Razorwing.
+*Fixed the Sheev, Mire, and Hate having unintentionally reduced Attack Speeds.
+*Fixed the Staticor not consuming ammo after the mag is depleted.
+*Fixed being stuck in endless Melee while Dual-Wielding.
+*Fixed the Berserker Mod not applying to Excalibur’s Exalted Blade and its waves.
+*Fixed missing consoles in the Corpus Ship tileset.
+*Fixed bad hitproxy on back of Arid and Forest Eviscerator enemies that were blocking head shots from behind.
+*Fixed an issue where already dead bodies would yield Credits if hit with the Secura Lecta.
+*Fixed script error when scrolling through available missions in a tab in the World State Window on a controller while on PC.
+*Fixed a script error when casting Harrow’s Thurible or Covenant.
+*Fixed a script error when casting Oberon’s Hallowed Ground.
+*Fixed a script error when casting Banshee’s Sonar.
+*Fixed a script error when casting Ivara’s Quiver.
+*Fixed a script error when casting Volt’s Discharge.
+*Fixed a script error when casting Mesa’s Peacemaker.
+*Fixed a script error when casting Hydroid’s Tidal Surge and Tempest Barrage.
+
+|conclave       =
+*Changed Pyrana’s Mag to 10 in Conclave to match PvE values.
+*Fixed the Sonicor doing pve damage in Conclave.
+}}
+{{update
+|update number  = 21.0.3
+|type           = fix
+|date           = June 30th, 2017
+|forumurl       = https://forums.warframe.com/topic/811064-chains-of-harrow-hotfix-2103/
+|misc           =
+;Harrow Changes & Fixes
+*Lowered the damage required per Critical Chance bonus for Harrow’s Covenant from 100 to 80.
+*Harrow’s Penance now has a Duration cap of 60 seconds.
+*Fixed lower ranks of Harrow’s Covenant having higher numbers than intended.
+*Fixed the Ripka's attaching to Harrow’s back.
+|changes        =
+*Adjusted the Zenith radar to show on enemies heads rather than the torso.
+*Disabled Emotes while Channeling Harrow’s Thurible.
+*Removed the "X OPEN SLOTS" text from the Friends/Clan menu.
+*Removed a sneaky Dojo Decoration that was not intended to be placeable yet. '''A script will be run shortly to remove this Decoration from Dojo inventories.'''
+|fixes          =
+*Fixed Opticor not being able to damage enemies outside of a Frost’s Snow Globe when fired from inside the Snow Globe.
+*Fixed a script error in the Simulacrum when swapping from a Sentinel to a Companion.
+*Fixed a crash when loading into the Law of Retribution or The Jordas Verdict.
+*Fixed Volt's Electric Shield blocking his own throwing Melee weapons.
+*Fixed triggering a progression transmission at the wrong time during the Chains of Harrow quest.
+*Fixed not having to properly lower the water level in Earth Spy missions.
+*Fixed some Riven Mods having incorrect capitalized characters.
+*Fixed quest VO initiating too early during Chains of Harrow quest (vague for spoiler reasons).
+*Fixed seeing a red enemy marker as the extraction marker for Exterminate missions.
+*Fixed a variety of crashes and bugs when using Razer Chroma effects.
+*Fixed a crash in the Simulacrum from Companions trying to use abilities.
+*Fixed cases where AI would think they could shoot through non-breakable glass.
+*Fixed the Knell's Penitence buff not removing when the duration was complete.
+
+;Conclave Fixes
+*Fixed the Knell not displaying its Penitence buff icon in Conclave.
+*Fixed the Knell not updating it’s scope UI correctly in Conclave.
+*Fixed Clients that join in progress in Conclave sometimes not being able to move right away and only regaining movement after being killed.
+}}
+{{update
+|update number  =21.0.2
+|type           =fix
+|date           =June 29th, 2017
+|forumurl       =https://forums.warframe.com/topic/810482-chains-of-harrow-hotfix-2102/
+|misc           =
+;Sneaky U21 Addition:
+*The Shock-Camo [[Opticor]] Skin is available for purchase in your Arsenal and we swear it's not a Braton model! 
+|changes        =
+*Improved foliage texture/terrain in the remastered Earth tileset.
+*Tweaked [[Ash|Ash’s]] [[Smoke Screen]] ability sound.
+*Removed ability to chat in global channels (Region,Trading, etc) while in the loading screen. Squad/Clan/Alliance chat is still available. This is to mitigate unanticipated server strain.
+*Optimized 64-bit builds slightly by leveraging the allocator's natural alignment.
+*Optimized game startup time slightly, especially immediately after Hotfixes.
+*Increased the time it takes for holding Melee before charged throw kicks in for dual-wielding. This should help with accidentally throwing instead of Melee attacking.
+
+;Melee Riven Fix:
+Fixed not being able to equip certain Dark Hybrid Melee Rivens. This was due to having numerous versions on our end with only 1 version that was correct. Those that possess the incorrect Dark Hybrid Riven will have it retroactively converted upon login.
+
+|fixes          =
+*Fixed missing Earth terrain in The Law of Retribution that made the mission uncompletable. '''*Worth noting that we’re working on a remastering the LoR Earth tileset - look forward to it in the near future!'''
+*Fixed being unable to complete the Hijack mission of [[The Law of Retribution]] due to the objective not starting.
+*Fixed not receiving [[Harrow|Harrow’s]] default Helmet when purchasing Harrow from the Market. '''*Those affected will receive the default Harrow Helmet upon login.'''
+*Fixed crashing while doing consecutive movements with [[Harrow]] (rolling + sprinting + shooting, etc).
+*Fixed numerous crashes when running in 32-bit mode due to running out of memory.
+*Removed unnecessary 2FA code challenges on login.
+*Fixed having to relog after completing the [[Chains of Harrow]] quest to receive Melee Riven Mod (only if Harrow was purchased before quest completion).
+*Fixed unnecessary teleport volumes in Captura Scenes.
+*Fixed certain enemies in the [[Chains of Harrow]] quest having a high chance of administering a Slash proc.
+*Fixed flickering textures and floating foliage in the remastered Earth tileset.
+*Fixed a crash related to Operators.
+*Fixed not being able to complete Earth Spy missions due to water not draining.
+*Fixed Eximus units spawning as normal variant in the [[Simulacrum]].
+*Fixed being unable to claim the Grustrag Bolt Release in the Foundry.
+*Fixed incorrect teleport triggers and water volumes in the [[Sands of Inaros]] quest.
+*Fixed Colonist markers in Defection not being sorted by distance, resulting in their marker rapidly alternating with the Med Station due to standing next to it.
+*Fixed the aim reticle disappearing due to casting [[Inaros|Inaros']] [[Sandstorm]] or [[Mesa|Mesa's]] [[Peacemaker]] while dual-wielding and then returning to a Rifle or Melee weapon.
+*Fixed [[Harrow|Harrow’s]] Penance ability having a [PH] in the Arsenal description.
+*Fixed numerous sounds/VO in the [[Chains of Harrow]] quest.
+*Fixed a repeating objective VO during the [[Chains of Harrow]] quest.
+*Fixed the Dread not being affected by Fire Rate Mods.
+*Fixed not being able to craft Specters.
+*Fixed being able to jump or move the camera out of [[Harrow|Harrow’s]] Temple Captura Scene.
+*Fixed the [[Knell]] headshot buff having default icon and description.
+*Fixed floating geometry objects in The New Strange quest tileset and the Earth tileset.
+*Fixed being invisible upon dying during phase 2 of the [[Jordas Golem]] Assassinate mission.
+*Fixed being prompted that ‘0 Teammates are waiting for you’ upon completing the [[Jordas Golem]] Assassinate mission and waiting at extraction with your teammates. 
+*Fixed [[Miter]] showing fall off values in the Arsenal (cosmetic only).
+*Fixed an edge case of crashing when dual-wielding with the [[Glaive]] after Aim-Gliding. 
+*Fixed receiving an error when attempting to incubate a [[Helminth]] Charger. 
+*Fixed the [[Scoliac]] having an unintended reduced Range.
+*Potential fix for UI freezing when sorting Dojo Research by progress.
+*Fixed cases of being in a constant Melee attack while in Dual-Wield mode after spamming the Melee button (in particular this was happening after a finisher attack).
+*Fixed Defectors sometimes getting stuck in the Defection pipe spawn room.
+*Fixed Opticor headshots not actually counting as headshots. 
+*Fixed Opticor creating 2x explosions on hit. 
+*Fixed [[Bronco Prime]] and [[Akbronco Prime|Akbronco Prime]] having switched Mastery Ranks. 
+*Fixed the normal aim reticle overlapping the Dual-Wield reticle after casting [[Harrow|Harrow's]] [[Thurible]].
+*Fixed Enemies not spawning if a Host migration occurred. 
+
+;Conclave Fixes:
+*Conclave Mods that increase Mag size can no longer be used with guns that have Mags with 1-5 rounds in them.
+}}
+{{update
+|update number  = 21.0.1
+|type           = fix
+|date           = June 29th, 2017
+|forumurl       = https://forums.warframe.com/topic/809985-chains-of-harrow-hotfix-2101/
+|fixes          =
+*Fixed [[Vulpine Mask]] being invisible in your Inventory and Codex (you still had it but the UI wouldn't show it to you).
+*Fixed a crash when hitting enemies with the [[Knell]] while zoomed (32-bit only).
+*Fixed numerous Stances missing from the Codex.
+*Fixed loading into an Interception mission on Jupiter IO instead of the intended Defense mission.
+*Potential fixes for the Balor [[Fomorian]] mission not rewarding any [[Endo]].
+}}
+{{update
+|update number  = Chains of Harrow
+|type           =
+|date           =June 29th, 2017
+|forumurl       = https://forums.warframe.com/topic/809842-update-21-chains-of-harrow/
+|title          = Update 21: Chains of Harrow
+|additions      =
+[[File:Warframe Quest - Chains of Harrow-0|center|660px]]
+{{clr}}
+Update 21: Chains of Harrow
+
+Additions:
+
+
+In response to a disturbing transmission from Palladino, the [[Red Veil]] Syndicate’s spiritual medium, Tenno are compelled to investigate a dark, mysteriously abandoned [[Steel Meridian]] spacecraft found adrift. Inside the vessel, lights flicker and emergency lights strobe. All is quiet except for whispers of “Rap. Tap. Tap,” heard echoing throughout the lifeless craft. What does it all mean? Players must uncover the terrifying reality of what happened onboard, how the [[Red Veil]] might play a part in it, and more.
+
+If you have completed [[The War Within]] Quest and have unlocked the Mot node in the Void the [[Chains of Harrow]] Quest will be automatically added to your Codex.
+
+Chains of Harrow Quest is also replayable after completion - enjoy it all over again! 
+
+'''(Please note that the [[Chains of Harrow]] Quest is Solo - not being able to matchmake is intentional)'''
+[[File:Warframe Profile - Harrow|center|660px]]
+{{clr}}
+Always prepared to sacrifice. This monastic [[Harrow|Warframe]] uses the Void to bolster allies’ defenses and amplify their lethality.
+
+Get Harrow today by purchasing him in the Market for Platinum, or by completing the Chains of Harrow quest and finding his parts! His parts can be found in the Defection mission type, Grineer Fortress Spy missions, and from enemies corrupted by Void Fissures!  
+
+;[[Harrow]]’s Abilities:
+
+'''Passive:''' Harrow’s overshield cap is doubled.<br/>
+'''[[Condemn]]:''' Harrow casts a wave of energy that chains enemies where they stand. Each enemy held reinforces Harrow’s shields.<br/>
+'''[[Penance]]:''' Harrow sacrifices shields to boost reload and fire rate, while converting damage inflicted on enemies into health for Harrow and nearby allies (including companions). The more shields are sacrificed the longer the buff lasts.<br/>
+'''[[Thurible]]:''' Channel Harrow’s energy into the [[Thurible]] to generate a buff. The more energy channeled, the longer the buff will last. Once finished, killing enemies will bestow nearby allies with bursts of energy. Headshot kills reward four times the energy compared to body kills.<br/>
+'''[[Covenant]]:''' Protect nearby allies with an energy force that absorbs all enemy damage and converts it to a Critical Chance bonus that can stack up to 2x for all those under the Covenant for a short duration. The more damage is prevented, the bigger the bonus. Headshots are amplified even further.
+
+ 
+
+;6 x Syndicate Weapon Mods are back!
+
+Previewed in the Operation: Ambulas Reborn, 6 Syndicate Weapon Augments are back and here to stay!
+*[[Avenging Truth]]
+*[[Entropy Detonation]]
+*[[Stockpiled Blight]]
+*[[Voltage Sequence]]
+*[[Neutralizing Justice]]
+*[[Disarming Purity]]
+
+;These can all be found in their corresponding Syndicates for Standing!
+
+
+;New Weapons!
+[[File:PriestSpear_1080p.png|center|660px]]
+{{clr}}
+'''[[Scourge]]'''
+
+Harrow’s signature Primary weapon, the Scourge is a Corrosive spear gun that shoots wave projectiles with high Punch Through and guaranteed Status Effects. Thrown spears attach a bullet attractor to the heads of all enemies within 14 meters, and continues to pulse every 7 seconds and attaches bullet attractors for 3 seconds wherever it has landed.
+
+[[File:PriestPistol_1080p.png|center|660px]]
+{{clr}}
+'''[[Knell]]'''
+
+Harrow’s signature Secondary weapon, the Knell, has the utility of a sniper with the sight and zoom with the convenience of a pistol. This single round magazine sidearm grants 100% ammo efficiency for 3 seconds (that can be refreshed when active) and 0.5x Critical Damage added per headshot with a maximum of 3 stacks.
+
+
+;New Customizations!
+[[File:PriestSyandana_1080p.png|center|660px]]
+{{clr}}
+;Nave Syandana 
+
+Harrow’s signature Syandana.
+
+
+[[File:Harrow_Image.png|center|660px]]
+{{clr}}
+;Suffragan Harrow Alt Helmet
+
+An alternate helmet for Harrow. Find it in the Market or Alerts!
+
+
+[[File:Warframe - Earth Remastered|center|660px]]
+Return to Warframe’s first planet with a completely new look. Earth Remastered offers improved volumetric lighting, a conversion to PBR materials, and a new vegetation system, which create a mood and atmosphere far more advanced than the original January 2014 update did. 
+
+The new lush forests of Earth are yours to explore. This Update turns the formerly good-looking planet into a stunningly lush, beautifully lit, alive, organically structured environment.
+
+;Note from our Sound Design Team: 
+
+We’ve breathed life into Earth’s ambiance by adding a greater variety of unique sounds as you move between the different areas, connecting tunnels/paths, and between the day and night cycle. You can now experience the sounds of more unique wildlife in the lush forest heavy areas, while the overrun Grineer areas focus more on the clunking and chugging of their machinery. With performance gains and a clearer and more focused mix, Earth now offers a higher level of diversity, adding to the overall experience.
+
+[[File:Nox_1080.png|center|660px]]
+{{clr}}
+;New Grineer Enemy - [[Nox|Chem Strike Nox]]!
+
+Ghastly in appearance and even more unpleasant in combat, [[Nox]] is the newest Grineer experiment, a member of a tactical chem-focus unit, and enemy to the Tenno. Seared by an obsession with toxin and wielding a dart weapon that deals Toxin and Impact damage, [[Nox]] leaves clouds of deadly toxin whenever he goes. Take caution, destroying Nox’s helmet will release the toxin trapped inside. This Grineer unit is also extremely unstable and will explode in repulsive fashion when killed.
+
+You may encounter Nox in enemy level 15 + Grineer missions.
+
+
+;Dual-wield Thrown Melee And Secondary Weapons
+
+Dual-wield any thrown Melee Weapon and a single-handed Secondary Weapon to destroy your enemies. Execute unique quick-melee combos and charged throws when dual-wielding for added damage.
+
+Thrown Melee weapon stats have been revisited to balance this new feature:
+
+;[[Kestrel]]
+*Increased Critical Chance from 5% to 10% for Melee hits and projectiles
+*Increased damage from 30 to 35
+*Increased Crit Multiplier from 1.5 to 2
+
+;[[Glaive]]
+*Increased Critical Chance from 5% to 10% for Melee hits and projectiles
+*Increased damage from 35 to 45
+*Increased Crit Multiplier from 1.5 to 2
+*Mastery Rank requirement increased to 1
+
+;[[Cerata]]
+*Increased Status Chance from 25% to 30% for Melee hits and projectiles
+*Increased damage from 35 to 44
+*Changed damage type of recall discharge to Toxin
+
+;[[Orvius]]
+*Increased Status Chance from 10% to 15% for Melee hits and projectiles
+*Increased Critical Chance from 10% to 15% for Melee hits and projectiles
+*Damage increased from 50 to 70
+*Recall discharge damage changed to Ice
+*Increased Mastery Rank requirement from 5 to 6
+
+;[[Halikar]]
+*Increased Status Chance from 15% to 20% for Melee hits and projectiles
+*Increased Crit Chance from 5% to 10% for Melee hits and projectiles
+*Increased Crit Multiplier from 1.5 to 2
+*Increased damage from 35 to 45
+*Increased Mastery Rank from 0 to 7
+
+;[[Glaive Prime]]
+*Increased Status Chance from 20% to 30% for Melee hits and projectiles
+*Increased Critical Chance from 5% to 15% for Melee hits and projectiles
+*Increased Crit Multiplier from 1.5 to 2
+*Increased damage from 45 to 50
+*Knockdown added to recall discharge
+*Increased Mastery Rank requirement from 0 to 10
+
+
+;Friend Notes!
+
+Add Notes about your existing friends or create new Notes to send with your future Friend Requests! This will allow you to keep track of your friends list in more detail - know someone who is great with an Octavia? Remember if someone is always in it for the long haul? Add Notes today! 
+
+
+
+;[[Evacuation]] is back and it's called [[Defection]]!
+
+Returning from '[[The Pacifism Defect]]' preview, [[Defection]] is here. Find Harrow Systems + new 'Bane of Corrupted' Mods! 
+*Added Galleon, Asteroid and [[Infested Ship]] [[Defection]] missions to [[Dark Sector]] nodes in the Star Chart (Phobos Memphis, Saturn Caracol and Neptune Yursa).
+*Defection has been added to the Sortie rotation!
+
+[[File:MeleeRivenMods_720p.png|center|660px]]
+{{clr}}
+;Melee [[Riven Mods]] are here!
+
+Your Arsenal of Melee weapons has awaited the Riven treatment and the time has come! Rivens overall now have a 25% chance to be earned from Sorties.
+
+
+
+;Multiplayer [[Simulacrum]] is here!
+
+For the moments where you wish you had a friend (or 3) with you in the [[Simulacrum]] to test a build! 
+
+
+;Mandachord Packs!
+
+2 new Mandachord instrument packs are here:
+*Epsilon Instruments - Electronic!
+*Plogg Instruments - Pop-rock!
+&#42;Find them in your Arsenal for purchase!
+
+;New Captura Rooms!
+
+In order to let you show off Earth Remastered, 3 new Captura Scenes have arrived! These can be obtained in Rare Crates on Earth: 
+*Grineer Forest Factory Scene
+*Grineer Forest Industry Scene 
+*Grineer Forest Water Pump Scene 
+2 Quest related Captura rooms have also been added - but spoilers mean we won't say too much. If you've finished Octavia's Anthem, you'll find Cephalon Suda offering a new Room. Once you finish Chains of Harrow, Red Veil will offer a new Captura room! 
+
+
+
+;Razer Chroma Compatibility
+
+If you find joy in neon colors flashing to the beat of killing Grineer, plug in that Razer Chroma and enjoy the show! Please note that Razer Chroma and Warframe compatibility is a work-in-progress and more compatibility will be added as we continue to develop it.
+
+
+
+;New Steam and PC Achievements
+
+23 existing PC Achievements have been added to our Steam Achievements! For those of who you have already completed these in-game, they will be unlocked on Steam when you play the Chains of Harrow update using the Steam launcher.
+
+We’ve also added 6 new Achievements to PC (and Steam), bumping the total amount of PC achievements to 172. These were already available on PlayStation 4 and Xbox One, but now it’s our PC Tenno’s turn to try their hand at them:
+
+
+'''Combat Specialist''' - Complete 3 Sorties<br/>
+'''KABOOM!''' - Kill 10 or more enemies with a single explosion (Tonkor, etc.)<br/>
+'''Liberator''' - Set 10 hostages free without triggering the execution timer<br/>
+'''The 8-fold Path''' - Survive 8 waves of Defense using only melee attacks!<br/>
+'''The War Within''' - Complete The War Within Quest<br/>
+'''This Is What You Are''' - Fully unlock one Focus skill tree
+
+Do you think you can complete them all, Tenno?
+
+General Additions: 
+*Special item pickups now display on the left side with emphasis rather than on the bottom resource bumper. You'll notice items like Kubrow Eggs, Weapon Blueprints, and other special items picked up in game now have more pizazz!  
+*Mods that are already equipped on compatible gear now have a desaturated look and icon representing that they cannot be simultaneously used on compatible gear!
+*With Archwing 2.0, players can now fire their weapons while 'sprinting'. This functionality carried over to Submersible missions, but there was no animation to go with it. An animation has been added for this functionality! 
+*There is now a [[Sentient]] category in the [[Simulacrum]]! 
+*You can now cycle through multi-option abilities while performing a roll.
+*Selecting [[Emote]]s in the Arsenal now plays said Emote on your Warframe!
+*Added variants for enemy group knockback and get-up animations when they are struck together.
+*Added a new minimap zone marker for more interesting objectives. You will see the first example of this in [[Harrow]]’s [[Chains of Harrow|Quest]]!
+*Added custom leap attack animations for the [[Nikana]].
+*Added an “Opponent forfeited” message in Conclave Team Annihilation and Lunaro when the opponent team leaves the match instead of "Victory".
+*Added a “Thank you for your purchase” message when buying Slots from your Inventory.
+*Added muzzle flash to shotguns.
+*Added new blood effects for when you shoot or slash your enemies.
+
+|changes        =
+*Junctions that used to award Quest blueprints will now directly award the following Quests, thus removing the need to craft them in your Foundry:
+**[[The Limbo Theorem]] (Jupiter-Europa Junction)
+**[[Patient Zero]] (Pluto-Eris Junction)
+**[[Hidden Messages]] (Pluto-Sedna Junction)
+*[[Oberon]] and [[Oberon Prime]] have received new visual FX for [[Hallowed Ground]]! 
+*[[Captura]] sessions now include a countdown and voting.
+*With [[Harrow]]'s enhancement to Criticals, we have slightly tweaked the colour gradient in which Critical hits are displayed. Introducing: Orange Crits! These now occur in between Yellow and Red Crits. Before, Crits became Red when 100% Crit Chance was achieved. Now Crits will be ORANGE  in the 100.01-200% range, and Red will start at 200.01%+! This is solely a visual change.
+*Polished Grineer enemy AI vault over, drop down, etc. animations.
+*Adjusted skybox lighting in Pluto’s asteroid field.
+*Corpus featured in the [[Valkyr Prime]] trailer now reflect the new facial feature textures in-game. 
+*Swapped out an old [[Grineer]] console panel with the consistent console panel in the [[Grineer Asteroid Fortress]] tileset.
+*Smoothed out Stealth and Parry finisher animations. Enemies will no longer pop in front of you and instead will properly align your Warframe with the enemy during the animation.
+*Lowered Armor and Health for Grineer [[Drahk]]s.
+*[[Feral Kubrow]] have had their Armor reduced to 50.
+*Made the Cycuta and Verlorum Prime Sigils appear more metallic.
+*Improved glass rendering to be more accurate all in the name of good looking glass.
+*Adjusted the hitbox size of some of the Grineer units’ shoulder pads so that they don’t block headshots.
+*Updated terminology for Melee combo descriptions for Portuguese and Turkish.
+*Made several case changes to text in game.
+*Changed [[Kavat]] animation looping from laying on side to sitting up to growl, and then lay back down. Essentially, your classic cat behavior - unbothered.
+*Replaced an old door in the Derelict tileset with a newer version.
+*Improved navigation for enemies in the Corpus Ice Planet and Infested Salvage tileset.
+*Reduced the countdown when going to a Relay to 5 seconds.
+*Made slight adjustments to the stiffness of the Zaikhya Syandana.
+*Slightly tweaked [[Excalibur]]'s Noble stance to have better trigger placement with his fingers.
+*Kubrow Eggs are now shown in the Inventory screen under the 'Misc' Tab.
+*Increased the elevator speed in Grineer Shipyard Defense missions from 14 seconds to 8 seconds.
+*Thought the [[Grakata]] couldn’t get any better? Well now it’s firepower sounds even more satisfying! We’ve improved it’s 3D sound to use stereo samples, which gives the [[Grakata]] a meatier sound when in close proximity to it. This gives ally and enemy [[Grakata]]s a more dynamic feel in 3D! Clem will be pleased.
+*Improved Excavator placement in Corpus Ice Planet tileset Excavation missions.
+*[[Darvo]]’s got a new groove with his newly PBR’ed outfit! 
+*Improved the performance of [[Frost]]'s [[Ice Wave Impedance]] Mod.
+*Clients will now be able to see the Host's Octavia Mallet Range FX for a few seconds when cast.
+*[[Dex]] weapon muzzle flash will now apply the chosen Energy color instead of mixing purple + Energy color. Previously it was always purple to keep the Lotus muzzle FX visible, but has since resulted in an unpleasant mix of colors. 
+*Various improvements to Grineer animations including aiming, crouching, sprinting, and more. Transition animations have also been improved.
+*Further improved and refined language used to describe Ability, Power, and Energy throughout the game’s text.
+*Moved [[Valkyr Prime]]'s Channelling FX to a different tint channel so they show up much better.
+*Changed [[Archwing]] [[Rush (Archwing)|Rush]] extraction marker to always path outside its zone to improve pathing flow.
+*Changed yellow 'destroy' markers in Corpus Reactor Sabotage missions to red.
+*Repositioned node to fix overlap of [[Natah]] quest text 'Find the Sentient Fragments' (Cressida) and Caleus on Uranus.
+*Swapped Morax and Baal's mission contents ([[Exterminate]] and Mobile [[Defense]]) on Europa so they aren't adjacent to nodes in other regions with the same missions.
+*Moved [[Europa]] - Armaros so text isn't so close to the region title.
+*Changed Mercury MPrime to Crossfire Exterminate (Infested vs Grineer, was Infested only)
+*Changed Europa - Armaros to Crossfire Exterminate (Infested vs Corpus, was Infested only).
+*Grineer [[Scorpion]]s grappling hook now has a lifespan of 10 seconds to prevent lingering grapples from causing performance issues.
+*Tweaked fleeing enemies in Exterminate missions to flee sooner when you spot them.
+*[[The Limbo Theorem]] Excavation missions will now guarantee one of the Blueprints at the end of 3 extractors as an End of Mission reward.
+*The Codex now auto-closes when beginning a Quest without a starting cinematic.
+*Forma-ing your equipment now brings you back to the Upgrade screen instead of to the main Arsenal.
+*Removed ability to mark Ayatan Stars since they automatically generate a marker.
+*Void Fissure Excavation missions now require players to crack open a Relic and have successfully-defended one dig site to completion before they can Extract.
+*Cephalon Fragment markers no longer appear if you have completed the Codex Entry or if you have scanned it in that mission, unless you're the initial marker.
+*Tweaked [[Limbo]]’s [[Vasiona Skin]]’s tintmasks at creator’s request.
+*Updated [[Frost]] [[Vojnik Skin]]’s weathering textures.
+*Buffed [[Avenging Truth]]’s stored damage to 20/30/40/50% from 10/15/20/25%.
+*Updated a bunch of Kickbot responses based on observations made by the Guides of the Lotus.
+*Sounds are now occluded when you are not looking directly at their source. This will help when attempting to locate enemies who are closest to you at all angles.
+*Improved the emoji icon in the chat window to avoid appearing with rough edges.
+*Infested [[Boiler]] minions will now target the last target of the Boiler that spawned them.
+*Adjusted the World State Window with the ability to display more Alert reward text if needed.
+*Polished multiple Agile and Noble idle animations for various weapons.
+*Polished single-handed Pistol reload animations, including adding clips to those weapons that did not have one.
+*Polished Tysis’ firing and reload animations.
+*Removed stacked color-correction when Melee Channeling to avoid an unsightly bright screen when spamming.
+*Polished Octavia’s Agile Animations.
+*Improved Condor Dropship pathing behavior in the Ambulas fight.
+*Corpus [[Ospreys]] can now receive headshots! You may now unleash devastating shots to their “faces”.
+*Made several mix improvements to bullet hit and Tenno Shield gaining/loss sound FX.
+*Damage numbers linger a little longer now.
+*Updated the visuals of Right-Click menus in your Friends or Clan Menus.
+*Spawning enemies in the Simulacrum now prompts a message outlining what enemies were spawned and in what number. This message will also indicate who spawned them in Multiplayer Simulacrum sessions.
+*Excavators will stop spawning after extraction is enabled in the Archwing Quest.
+*Made small improvements to how idle enemies react to being hit by bullets by unseen attackers.
+*Active Kinetic Siphon Traps will timeout after 3 minutes (unless it is tethered to a target).
+*Moved asteroid belt in the Star Chart to be beside Ceres because, thankfully, Earth is not surrounded by asteroids - Ceres is!
+*The Chat Window is now accessible during loading screens, but you will be unable to link Rivens or Songs, view Profiles, click Chat Links, or edit Chat Filters when in loading screens.
+*Made the floor FX of [[Octavia]]’s [[Metronome]] smaller for Clients out of respect to players sensitive to seizures as per: [https://forums.warframe.com/topic/802797-octavia-abilities-triggering-epileptic-seizures/ this thread]
+*Replaced Waypoint Markers with new area markers in the second mission of the Second Dream Quest, and updated the objective text to be more descriptive.
+*Toned down the FX on Puncture Status Effects.
+*Tweaked cloth stiffness of the Uru Prime Syandana.
+*Updated appearance of Warframe and Weapon Codex entries.
+*Codex Relic search now also searches Relic contents.
+*Dojo instances are now cancelled when no clan members are present.
+*Audited head hitboxes to ensure headshots are properly rewarded across all enemy units with applicable heads.
+
+;Exterminate Mission Changes:
+*Enemy units start easy and get tougher towards the end of the mission as more enemies are killed.
+*Eximus or special enemy mini-bosses will spawn at intervals as more enemies are killed.
+*Added an in-world marker like other missions.
+*Enemies in Crossfire missions now spawn with more variety. Previously the same few enemy units were used for all Crossfire missions. These have also been randomized in Alerts and Invasions, depending on the tileset.
+*Enemies will no longer be tracked once the required exterminate count is reached, and the tracker will now disappear after a few seconds.
+
+;Mobile Defense Mission Changes: 
+*Added Mobile Defense consoles to more Grineer Shipyard and Asteroid tiles to increase the chance of playing in unique tiles for Mobile Defense missions.
+*Reduced the maximum total Defense time from 6 mins to 4 mins in the highest difficulty areas. Time is still divided between 2-3 consoles.
+*Increased the maximum concurrent enemy count during Defense stages to increase intensity.
+*Reduced console health slightly for a little added challenge.
+*Console health is higher in Solo missions.
+*Lockdowns can no longer occur at any point during Mobile Defense missions.
+*Enemy types start easy and get tougher with each console defended, similar to the Exterminate changes (also applies to Archwing Mobile Defense and Exterminate).
+
+;Procedural Level Changes:
+*Mobile Defense missions always have 3 consoles now, with the exception of those with special mobile defense tiles (see below). There is still a fallback of 2 consoles in case there was no room to spawn a 3rd, but this should occur very rarely.
+*Grineer Asteroid and Corpus Infested Ship tiles will now randomize with a 50/50 chance of it landing on a special Mobile Defense room or 3 individual large rooms with a console in each.
+*Added consoles to more tiles in Grineer Asteroid and Shipyards for more variety.
+*Made a couple tweaks to existing console locations in Grineer Asteroid and Shipyard tiles.
+*Removed tiles containing elevators on the main path in Grineer Asteroid, Corpus Ice Planet, and outpost tiles to improve spawning
+*Increased chance of spawning unique Mobile Defense rooms in several tiles - Corpus Ship, Corpus Outpost, Corpus Gas City, Grineer Galleon, Grineer Settlement, and Grineer Shipyards.
+*The Grineer Shipyard Mobile Defense tileset is back, and optimized for better performance and with new randomized console locations!
+*Made several procedural level length and layout tweaks for better tile variety in several tiles.
+*Reduced the maximum number of co-op (friendship) doors from 2 to 1.
+*Large rooms will now be favored over narrow corridors in the Corpus Ship tiles.
+*The Grineer Fortress Exterminate missions have been tweaked to reduce tile repetition and length.
+*Made several tweaks to reduce chance of large tiles repeating in Survival missions.
+*The Grineer Fortress Assault mission has been tweaked to have less filler tiles and shorter defense timers for the mission.
+
+;User Experience and UI QOL Additions & Changes:
+*Added “how-to reload” to tutorial instructions in Vor’s Prize.
+*Added names to offline consoles in your Landing Craft during Vor’s Prize to familiarize players with the equipment.
+*Added “click to open”, “select one”, and “press x to open” instruction labels to the Daily Tribute.
+*Added “Not available in mission” message over Dojo and Clan log entries when in mission.
+*Added Mastery progress bar for Squad members in the Squad panel.
+*Added a number to the overall Syndicate Standing bar in the End of Mission window.
+*Added default display settings when no known graphics card is identified.
+*Added descriptions for the Primary, Secondary, and Melee weapon options in Vor’s Prize when prompted to choose a weapon in each category.
+*Added a cool-down timer in chat rooms where you are limited to how frequently you can post.
+*Added the Mastery Rank icon and gave it a pulsing FX in the squad overlay (only visible in Landing Craft) when you are eligible for the next Mastery Test.
+*Added a blur effect to the background of the consoles at the front of the Landing Craft to improve readability. In-mission text has also received a similar treatment.
+*Added an in-world navigation marker to Rescue mission tiles to direct to main door hack panels within a 20-30 meter range.
+*Added a “hide window” Chat icon.
+*Added a “clear filter” button that instantly removes any text that has been entered into a filter box.
+*Added individual “destroy” icons to the fuel injectors on the Sabotage reactor in Vor’s Prize.
+*Added a UI indicator to Zenith (just like Zenistar) that shows how much time you have left on the disc before it's automatically recalled.
+*Added search bar and sorting capabilities to Dojo Room screens, Decoration selection screens, and Research screens.
+*Added Punch Through, Shotgun drop-off, and *Melee range weapon stats to the Arsenal. *(Melee range weapon stats in the Arsenal are still being worked on - soon!)
+*Added scrollbar to the Clan and Alliance Message of the Day in the Clan and Alliance Menus.
+*Changed subtitles to 1600x720 so that they do not appear stretched when menu scale is at “full”.
+*Changed the Corpus lockdown panel material and light from green to orange.
+*Changed Grineer lockdown panel locked material color to orange.
+*Changed the look and position of the squad invite notification FX.
+*Changed the Star Chart Nav Segment mission type in Vor’s Prize to “Quest” instead of “Sabotage” since the Sabotage objective is optional and not discovered until mid-mission. The same was done for the Foundry Segment retrieval mission (“Exterminate” to “Quest”).
+*Changed one of the unusable small console’s material to an “off” state to avoid confusion with active consoles.
+*Improved readability of Junction tasks.
+*Improved how rewards are sorted in the End of Mission screen. Rewards are now ordered as follows: Mission Score > Credits > Kuva > Components > Blueprints > Ayatan Sculptures > Ayatan Stars > Endo > Resources > Anything else.
+*Improved descriptions of numerous instructions during Vor's Prize.
+*Pressing Escape while the chat window is open will now minimize chat before closing any screens behind it.
+*Equipment is now sorted in your Profile by time equipped instead of percentage used.
+*Adjusted the Arsenal context action position to better align with the Arsenal itself.
+*Updated the active Quest nodes and pulse FX in the Star Chart with the Quest icon instead of a blue diamond.
+*Hacking terminals now display the context actions “Reset Alarms” or “Release Lockdown” instead of the generic “Hack Terminal” action.
+*All context actions now have the option to use a script to determine its action text dynamically.
+*Drop down menus will now auto close when a mouse click is made outside of the drop down menus background.
+*“Credit Reward” and “Mission Credits” are now displayed as a single entry “Credits” in the End of Mission reward window.
+*A “Cannot Use in Archwing” HUD message will now appear under the ability bar when attempting to use Liset Air Support Charges and Kinetic Syphon Traps while in Archwing missions.
+*Improved the revive screen by adding an explicit “Revives Left This Mission” banner with the number of revives left.
+*The Hostage icon will now appear next to the name/health and shields bar of the Hostage when in the care of the Tenno.
+*Tweaked numerous timer descriptions to include 'Time Left' details, not just a default timer.
+*Removed Eximus spawns from Vor’s Prize during the Foundry Segment retrieval mission.
+*Picking up a starter weapon in Vor’s Prize now displays it in a rewards pop-up (similar to when a Foundry item is claimed).
+*Improved visibility of indicator in Grineer hacking puzzles.
+*You can now search for your Kubrows and Kavats by name.
+*Updated the Relic Pack opening UI to display possible rewards from each Relic.
+*Items in the Market will display its required Mastery Rank even if the player’s Mastery Rank surpasses it.
+
+;Weapon Changes:
+
+'''Primary Shotguns (with the exception to the Phage) received buffs back in Update 17, and now we bring that same attention to Secondary Shotguns!'''
+
+;[[Bronco]]
+*Damage increased from 15 to 38
+*Damage fall off added starting from 7m and ending at 14 with a minimum damage of 10
+*Status Chance increased from 14% to 20%
+
+;[[Akbronco|AkBronco]]
+*Damage increased from 15 to 38
+*Damage fall off added starting from 7m and ending at 14 with a minimum damage of 10
+*Status Chance increased from 14% to 20%
+
+;[[Bronco Prime]]
+*Damage increased from 20 to 50
+*Damage fall off added starting from 9m and ending at 18 with a minimum damage of 13
+*Status Chance increased from 17.5% to 22%
+*Increased Crit Multiplier from 1.5 to 2
+*Mastery Rank 3 required
+
+;[[Brakk]]
+*Damage increased from 15 to 20
+*Damage fall off reduced to 11m and ending at 22 with a minimum damage of 8
+*Increased Status Chance from 10% to 15%
+*Mastery Rank 6 required
+
+;[[Detron]]
+*Damage increased from 15 to 40
+*Damage fall off added starting from 13m and ending at 26 with a minimum damage of 14
+*Status Chance increased from 10% to 20%
+*Mastery Rank 6 required
+
+;[[Twin Rogga]]
+*Damage increased from 20 to 40
+*Damage fall off added starting from 10m and ending at 20 with a minimum damage of 10
+*Mastery Rank 8 required
+
+;[[Mara Detron]]
+*Damage increased from 20 to 30
+*Damage fall off added starting from 16m and ending at 32 with a minimum damage of 15
+*Status Chance increased from 10% to 20%
+*Critical Chance increased from 2.5% to 5%
+*Increased Accuracy for hip and aimed fire
+*Mastery Rank 9 required
+
+;[[Kohmak]]
+*Damage increased from 8 to 17
+*Damage fall off reduced to 12m and ending at 24 with a minimum damage of 5
+*Mastery Rank 10 required
+
+;[[Akbronco_Prime|Ak Bronco Prime]]
+*Damage increased from 20 to 50
+*Damage fall off added starting from 9m and ending at 18 with a minimum damage of 13
+*Mastery Rank 11 required
+
+;[[Pyrana]]
+*Damage increased from 9 to 22
+*Damage fall off added starting from 15m and ending at 30 with a minimum damage of 6
+*Increased mag size from 5 to 10
+*Mastery Rank 12 required
+
+;[[Twin Kohmak]]
+*Damage increased from 8 to 17
+*Damage fall off reduced to 12m and ending at 24 with a minimum damage of 5
+*Increased Fire Rate from 5 to 8
+*Increased Recoil and decreased Accuracy
+*Mastery Rank 12 required
+
+;Revisit of some classic Warframe Secondary weapons: 
+
+;[[Lato]]
+*Increased damage from 18 to 30
+*Increased Crit Chance from 5% to 10%
+*Increased Status Chance from 1% to 3%
+
+;[[Aklato|AkLato]]
+*Increased damage from 18 to 30
+*Increased Crit Chance from 5% to 10%
+*Increased Status Chance from 1% to 3%
+*Increased Mastery Rank requirement from 0 to 1
+
+;[[Furis]]
+*Increased damage from 15 to 20
+*Increased Status Chance from 1% to 8%
+*Increased Mastery Rank requirement from 0 to 2
+
+;[[Lex]]
+*Increased damage from 70 to 130
+*Increased Crit Chance from 15% to 20%
+*Increased Mastery Rank requirement from 0 to 3
+
+;[[Sicarus]]
+*Increased damage from 30 to 40
+*Increased Crit Chance from 10% to 15%
+*Increased Status Chance from 2% to 5%
+*Increased Mastery Rank requirement from 1 to 3
+
+;[[Afuris|AkFuris]]
+*Increased damage from 15 to 20
+*Increased Status Chance from 1% to 8%
+*Increased Mastery Rank requirement from 0 to 4
+
+;[[Lato Vandal]]
+*Increased damage from 20 to 50
+*Increased Crit Chance from 8% to 20%
+*Increased Mastery Rank requirement from 0 to 4
+
+;[[Aklex|AkLex]]
+*Increased damage from 70 to 130
+*Increased Crit Chance from 15% to 20%
+*Increased Mastery Rank requirement from 0 to 4
+
+;[[Lex Prime]]
+*Increased Mastery Rank requirement from 0 to 5
+
+;[[Dex Furis]]
+*Increased damage from 15 to 16
+*Increased Crit Chance from 8% to 10%
+*Increased Status Chance from 5% to 20%
+*Increased Mastery Rank requirement from 2 to 5
+
+;[[Lato Prime]]
+*Increased damage from 22 to 37
+*Increased Crit Chance from 5% to 30%
+*Increased Status Chance from 5% to 20%
+*Increased Mastery Rank requirement from 0 to 6
+
+;[[Sicarus Prime]]
+*Increased damage from 40 to 50
+*Increased Crit Chance from 20% to 25%
+*Increased Status Chance from 10% to 20%
+*Increased Mastery Rank requirement from 2 to 7
+
+;Primary Weapon Revisits: 
+
+;[[Daikyu]]:
+*Increased damage from 350 to 500
+*Increased Status Chance from 45% to 50%
+*Added 100% Knockback Status Effect
+
+;[[Stradavar]]:
+*Increased Accuracy when shooting from the hip in Full-Auto mode
+*Increased Accuracy when shooting in Semi-Auto when aiming
+*Increased damage from 25 to 28 in Full-Auto mode
+*Increased Critical Chance from 10 to 15% in Auto mode
+
+;[[Opticor]]: 
+*Added 1m innate Punch Through
+*Increased Status Chance from 15% to 20%
+*Increased Critical hit Chance from 15% to 20%
+*Increased Critical hit multiplier from 2 to 2.5x
+*Enemies killed now disintegrate
+*Increased collision thickness of beam
+
+|fixes          =
+*Fixed spawn and pacing issues in many Excavation issues (particularly for Solo players on Europa).
+*Fixed misaligned thrusters on Regulator Codex entries.
+*Fixed issues with the Captura button not always appearing properly when navigating to a [[Warframe]]'s Appearance.
+*Fixed issues with Chat filters not working with case sensitivity.
+*Fixed issues with Captura sessions allowing missions to be played beyond the 4 player limit.
+*Fixed tile border clipping issues in the Corpus Outpost tile when levels are generated.
+*Fixed an art issue with a Corpus Wall vent.
+*Fixed rogue trigger that was poking into other levels causing unwanted space zones in the Infested Salvage tileset.
+*Fixed the sheath orientation on the Nikana when attacking.
+*Fixed an issue where the Melee slam attack for Clients was dealing double damage.
+*Fixed title in the Melee Combo screen not being localized.
+*Made several fixes to improve enemy spawning and flow in Corpus Ice Planet Excavation missions.
+*Fixed faulty navigation for the collapsing ice bridge in the Corpus Ice Planet tileset.
+*Fixed Platinum discount timer counting at variable speeds at different frame rates.
+*Fixed Codex/Market diorama focusing on the incorrect points when viewing Pistols.
+*Fixed a script error if you claim a built weapon before the diorama finishes loading.
+*Fixed [[Hush]] Mod not working for charging sounds (ex. alt fire on the [[Paracyst]]).
+*Fixed Riven capacity not updating if you sell or dissolve all your Rivens at once.
+*Fixed Cephalon Simaris, Ordis, and Suda being too zoomed during their transmissions.
+*Fixed the Simulacrum Arsenal always showing a fully grown Cyst on your Warframe.
+*Fixed the Arsenal camera getting displaced and stuck when killed by a projectile in the Simulacrum.
+*Fixed muzzle flashes going off while reviving as Mesa.
+*Fixed black glass in the Ordis and Cephalon Suda transmissions.
+*Fixed broken assets in the final room of the first [[Archwing]] mission in [[The Archwing]] Quest.
+*Fixed a script error related to crafting UI message in the Foundry.
+*Fixed being able to press enter when asked if you want to rush crafting even if you don't have a weapon building.
+*Fixed the Towsun Skin Collection in the French client incorrectly mentioning Grakatas as part of the bundle.
+*Fixed Warframes, weapons, and Sentinels levels not updating in the squad overlay if leveled during the mission.
+*Fixed the weapon Energy trail for the [[Obex]] and [[Prima Obex]] incorrectly showing as claw-like.
+*Potential fix for a script error when you hover and click next to the [[Ayatan Treasures]] window in the Mod segment.
+*Fixed enemies in the Mastery Rank 12 test appearing without the Simulacrum texture and FX.
+*Fixed Eximus units spawning in the Mastery Rank 24 Test making it very difficult to complete as the Operator.
+*Fixed various clipping issues with the Centuria Syandana.
+*Fixed an issue where the Opticor would explode on Volt's Electric Shield instead of simply passing through and amplifying the damage.
+*Fixed continued issues with Sortie Rewards not showing what was earned.
+*Fixed various issues with missing collision in the Corpus Outpost.
+*Fixed multiple clipping issues with the Repala Syandana on some Warframes.
+*Fixed not being able to start new Dojo Pigment research without re-loading the screen.
+*Fixed several Melee weapon trails not showing up properly.
+*Fixed the Trading Post / Treasury decorations in the Dojo being permanent once placed in a session resulting in loss of functionality.
+*Fixed Capture Target dying and causing instant mission fail in the Corpus Ice Planet if the bridge collapses while they're on it.
+*Fixed some inconsistent door light materials in Orokin loot challenge tiles.
+*Fixed issues with colour correction not being applied to [[Mesa]]'s [[Peacemaker]].
+*Fixed the Mars Junction only rewarding 1 Codex Scanner instead of 25.
+*Fixed an issue where players would sometimes have to relog to use items gifted to them.
+*Fixed various issues with game localization not appearing properly in Navigation windows.
+*Fixed issues with elevators becoming desynced in player Dojos.
+*Fixed "Expanding" Melee weapons not expanding when equipped.
+*Fixed certain grids playing Focus sound multiple times when scrolling.
+*Fixed the "Mods" button showing up in Upgrade screen when in Simulacrum.
+*Fixed an issue where changing loadout during mission start timer will result in a change of loadout after end or abort of mission.
+*Fixed an issue with [[Cephalon Suda]]'s death squads not being Eximus units. Look out! 
+*Fixed an issue with back Sigils clipping on the Chroma Dynasty Skin.
+*Fixed multiple navigation issues in the Corpus Ice Planet tileset.
+*Fixed issues with Glaive-style weapons being thrown through walls.
+*Fixed [[Napalm Bombard]] fire projectiles not being affected by [[Mag]]'s [[Magnetize]] (projectile attractors).
+*Fixed stats for [[Conclave]] Arsenal being incorrect when swapping weapons.
+*Fixed [[Prosecutors]] not having a [[Codex]] entry.
+*Fixed a script error when focusing on Landing Craft Decorations while in the decoration placement mode.
+*Fixed applying Sigils to [[Nova Prime]] displaying weird textures.
+*Fixed being in an unarmed state when attempting to switch to a Synthesis Scanner while sheathing a weapon.
+*Fixed Dojo decoration options to accurately reflect if the decoration needs contributions or if it's in the building phase.
+*Fixed sprinting/rolling in Submersible resulting in launching you through geometry and out of the level bounds.
+*Fixed attempting to go back when viewing a Companion’s Codex page not closing the Codex.
+*Fixed [[Kavat]] and [[Kubrow]] bundles from the Market not awarding [[Incubator Power Core]]s.
+*Fixed Clients not able to see the [[Health Conversion]] Mod effects.
+*Fixed not being able to sit in the [[Helminth Infirmary]] chair as [[Nidus]] as per: [https://forums.warframe.com/topic/780112-cannot-sit-on-helminths-chair/ this thread]
+*Fixed viewing windows when mousing over [[Mirage]]’s [[Hall of Mirror]] clones leaving a translucent flickering model, resulting in an obstruction of view.
+*Fixed playing a holstering animation after throwing the [[Javlok]] or [[Ferrox]].
+*Fixed Point D on the Grineer Galleon Interception mission on Mercury appearing as a Cryopod instead of an Interception point.
+*Fixed some options under Display Settings not resetting to defaults.
+*Fixed a script error upon finding a Rare Crate in the Law of Retribution.
+*Fixed [[Vauban]]’s [[Vortex]] sometimes spontaneously killing enemies.
+*Fixed sometimes not being able to go back on a zipline once you reach the end.
+*Fixed yellow glow from knock down Debuff not showing up after Nidus has used a Stack to Revive.
+*Fixed Grineer Satellites in Archwing having a ridiculously small scanning location.
+*Fixed the [[Angstrum]] generating infinite spread for its first shot.
+*Fixed cases where viewing [[Kubrow]]s in the Codex would use the stats for whatever [[Kubrow]] you currently have equipped.
+*Fixed a level hole in the Grineer Sealab tileset from which you could swim out and slowly fall into the dark abyss of water.
+*Fixed Mercury Terminus Sabotage not showing Crossfire and the correct faction on the Star Chart UI.
+*Fixed Europa Valac not showing Crossfire on Star Chart UI.
+*Fixed small doors in the Corpus Ice Planet Rescue tile being affected by lockdowns and trapping players.
+*Fixed an issue where Impact Status Effect icons would never display on the HUD next to enemy Health bars.
+*Fixed the Kohm having incorrect reload clip ejection timing.
+*Fixed overlapping names in Honored Grand Masters list in the Relay.
+*Fixed mismatched mission rewards if a player crashes/disconnects from a Squad and then rejoins just as the Squad is completing a mission.
+*Fixed Syndicate Captura Rooms missing doors.
+*Fixed seeing squad mates’ Tonkor aim trail when shooting or aiming.
+*Fixed the Opticor and Ferrox not dealing any damage if it was fired inside Limbo's Stasis as per: [https://forums.warframe.com/topic/791540-opticor-limbos-stasis-bugged/ this thread]
+*Fixed [[Nidus]]’ Stack Counter being visible when using a [[Remote Observer]].
+*Fixed clicking on Linked bundles in Chat leading to the purchase screen instead of the Market screen.
+*Fixed a typo on [[Zephyr]] Migisi Helmet description.
+*Fixed exits to Orokin Puzzle Rooms being only triggerable by Hosts, resulting in Clients sometimes being trapped in the room as per: [https://www.reddit.com/r/Warframe/comments/6ew86c/de_please_add_failsafes_to_the_puzzles_c/ this thread]
+*Fixed [[Euphona Prime]]’s primary fire projectile not appearing when using low particle settings.
+*Fixed an unnecessary Objective Marker appearing after destroying the 3 pipes in Sealab Sabotage.
+*Fixed the "NOT" prefix in the Chat Filter list not being localized.
+*Fixed Excavators sometimes having inconsistent Health and Shields.
+*Fixed [[Tomb Guardian]]s multiplying on death when force-killed in Simulacrum/Captura.
+*Fixed Mutalist MOAs being unable to be hit by finishers.
+*Fixed a bug causing Syndicate Offerings to overlap when completing a purchase with the “Hide Owned” filter active.
+*Fixed the visuals of the orbital strike smoke trails in the Ambulas boss fight.
+*Fixed [[Orvius]] charged attacks causing enemies to hang in the air indefinitely when immediately switching to an ability weapon.
+*Fixed Grineer [[Scorpion]]s freezing for several seconds if their grapple pull misses.
+*Fixed Forest Camo Skin not applying properly to the [[Furis]].
+*Fixed [[Soma]] skins not applying to the clip when previewed.
+*Fixed the “Gift” option appearing on certain [[TennoGen]] skins when they are unable to be gifted.
+*Fixed Clients not able to see the destination circle after they or a squadmate has casted Effigy using [[Chroma]]’s Guided Effigy Augment.
+*Fixed Orokin Sentries being labelled “Turret” when in a deactivated state.
+*Fixed Blueprints in the Foundry displaying the craft time as “1 hours” instead of “1 hour”.
+*Fixed the [[Kubrow]] Tame idle animation not looping correctly.
+*Fixed [[Vor]] in Ceres Assassination missions remaining alive for the Host when he is one-shot by a Client.
+*Fixed script error when viewing the 'Transport' entry in the Objects section.
+*Fixed a soft lock caused by accessing the Menu with the End of Mission rewards screen still up in your Orbiter.
+*Fixed Corpus Stasis Mine clipping into the floor in the Codex.
+*Fixed arm twitching when holding a Rifle with Mesa’s Noble Idle equipped.
+*Fixed [[Oberon]]’s [[Hallowed Ground]] VFX remaining indefinitely after a Host migration.
+*Fixed Clients not seeing Booster information when picking them up during a mission.
+*Fixed animation on a specific set of doors within [[The War Within]] Quest.
+*Fixed Resource Containers using incorrect drop tables for the planet in Quest missions.
+*Fixed [[Avenging Truth]] absorbing damage when RMB was held but no actual damage was blocked.
+*Fixed [[Jackal]]’s upper legs being invulnerable.
+*Fixed ghostly Rampart remaining on Oberon if entering or exiting a Rampart with Renewal active.
+*Fixed ghostly Rampart remaining on an enemy if they exit the Rampart while under [[Nyx]]’s [[Mind Control]].
+*Fixed Nidina Shoulder Plates clipping on [[Vauban Prime]].
+*Fixed various Syandana clipping issues for [[Rhino]].
+*Fixed various Syandana clipping issues for [[Hydroid]]’s Immortal Skin’s waist cloth.
+*Fixed [[Hydroid]]’s Immortal Skin’s waist cloth clipping into his legs.
+*Fixed lower-back clipping issues for the Incubus Ribbon Syandana on a variety of Warframes.
+*Fixed various Syandana clipping issues through [[Nezha]]’s back.
+*Fixed Centuria Syandana clipping issues for various Warframes.
+*Fixed Zaikhya Syandana clipping issues for various Warframes.
+*Fixed Syandana clipping issues for the [[Frost]] Emperor Skin.
+*Fixed [[Oberon]]’s Feyarch Skin’s skirt getting stuck in his legs.
+*Fixed various Syandana clipping issues through [[Titania]]’s wings.
+*Fixed various Syandana clipping issues through [[Chroma]]’s [[Effigy]].
+*Fixed Repala Syandana clipping through [[Loki]]’s arms.
+*Fixed “Clan” not being localized in the Clan Tier title.
+*Fixed some cases where localized text would clip outside of the [[Riven]] Reroll Button.
+*Fixed a crafty guard in the Relays who got a hold of two [[Braton]]s instead of one.
+*Fixed an issue with weapons shrinking sometimes depending on the skin equipped.
+*Fixed unnecessary waypoint markers in [[Tyl Regor]]’s boss battle.
+*Fixed the assassination room already being destroyed when fighting the [[Juggernaut Behemoth]] in [[Jordas Golem]] Assassinate.
+*Fixed staying as the Operator when in Operator mode during the transition to Archwing in the [[Jordas Golem]] Assassination. Being killed as the Operator with your Archwing would respawn the player into the Juggernaut Assassination room, making it impossible to complete the mission.
+*Fixed being able to float mid-air if you stand on top of the Juggernaut Behemoth’s spawn pod before he emerges from it.
+*Hopeful fix for the [[Grustrag Three]] not always spawning in the [[Law of Retribution]].
+*Fixed purging into Arching mode in Stage 3 of the [[Jordas Verdict]] while wielding an Exalted Weapon resulting in not having Archwing Weapons.
+*Fixed [[Chromatic Blade]] Augment not applying elemental FX on Exalted Blade’s projectiles.
+*Fixed the black box behind the title and description of a Quest in the “end quest” screen not going all the away across the screen if you did not have a wide enough resolution to support it.
+*Fixed Infested [[Boiler]] minions always spawning at level 10.
+*Fixed an issue with the enemy counter selection buttons in the Simulacrum that would cause you to get stuck in the UI.
+*Fixed multiple issues with transmissions during the Ambulas fight.
+*Fixed [[Ambulas]] doing jump attacks in places where he obviously can’t perform this maneuver.
+*Fixed missing objective marker to locate Cache when playing the first mission in the Archwing Quest.
+*Fixed [[Mirage]]’s [[Hall of Mirrors]] causing some explosive weapons’ projectiles to detonate almost immediately upon firing, causing self damage.
+*Fixed explosive weapons auto-detonating due to Mirage’s Hall of Mirrors clones.
+*Fixed missing mesh on the Zenith.
+*Removed duplicated Halls of Ascension rooms on Lua.
+*Fixed an issue where cloth would revert to their default position and then settle when things changed in the Arsenal.
+*Fixed [[Red Veil]] Operatives drawing a strange blue effect from their weapon trails.
+*Fixed Host taking more damage when their Armor integrity is at 0 during the [[Jordas Verdict]] trial.
+*Fixed a script error that could occur when trying to look at your Offline Friends.
+*Fixed enemies being able to trigger lockdowns in Sortie Mobile Defense missions.
+*Fixed the Lacera displaying incorrectly when posing in the Arsenal.
+*Fixed issues with [[Supra Vandal]]’s tinting.
+*Fixed Player Names and Loadouts not displaying properly in Conclave Lobby UI.
+*Fixed [[Chroma]] Dynasty Skin clipping into many cloth Syandanas.
+*Fixed the Yamako and Vanquished Banner syandanas clipping into [[Oberon Prime]]’s cloth pieces.
+*Fixed an issue with Syndicate Handshakes not working in the Relays.
+*Fixed an issue with the [[Penta]] grenades not detonating in succession while switching weapons with [[Adhesive Blast]] equipped.
+*Fixed Weapon skins sometimes not applying to the Weapon in the Market.
+*Fixed talking to [[Cephalon Suda]] resulting in players being able to bring up the Syndicate UI anywhere in the Relay when they press X.
+*Fixed [[Kuva]] getting stuck in the ground and ceiling in multiple areas around the Corpus Ice Planet tileset.
+*Fixed Zenith’s radar not highlighting enemies behind closed doors.
+*Fixed the [[Nikana]] sheath becoming unattached from your hand and flipped around when performing an air attack.
+*Fixed stacking buffs not being removed properly when they hit 0.
+*Fixed Melee Channeling FX not properly displaying when joining a mission as a Client.
+*Fixed the [[Heliocor]] appearing unfolded when holstered on your Warframe’s back in the Relays.
+*Made multiple alignment and consistency fixes for doors across different tilesets. 
+*Fixed having Dual Pistols equipped but switching to single Pistol after placing the Reactor Cell in Sabotage missions.
+*Fixed viewing one item in the Market and clicking on a related item sometimes causing duplicate items to appear in the diorama if you press ESC before the related item loaded completely.
+*Fixed enemies not spawning in Erpo on Earth.
+*Fixed player's master volume settings being set to 0 affecting the damage output of [[Octavia]]'s [[Amp]].
+*Fixed cloth collision Syandana issues with [[Saryn]].
+*Fixed the [[Cyngas]] flaps unfolding inconsistently in several different ways when previewing it in the Archwing Arsenal.
+*Fixed a mis-matched pose for [[Ivara]] in the Rifle idle variant.
+*Fixed several Excavation, navigation, and AI choke points issues on the Corpus Ice Planet tileset.
+*Fixed a script error with the [[Ferrox]].
+*Made a small performance fix to Operator gameplay.
+*Fixed a case where you were unable to save a Chat-Linked Song in the Mandachord.
+*Fixed PBR conversion issues in the Grineer Galleon tileset.
+*Fixed Extraction marker staying red after killing all enemies for Exterminate objective.
+*Fixed issues with the dissolve FX not properly working on enemies killed with Melee Channeling.
+*Possible fix for a crash caused by the Swarm Mutalist MOA’s projectiles.
+*Fixed clipping issues with Saita Prime’s arm customizations.
+*Fixed FX when switching Glyphs.
+*Fixed Ki’Teer Sugatra stiffness.
+*Fixed Bullet Jump FX sometimes appearing on a player’s screen if allied Syndicate Operatives use Bullet Jump in mission.
+*Fixed Extraction marker pulsing green when it’s acting as an Exterminate marker.
+*Fixed a motion blur error on the [[Silva & Aegis]] that would occur after an aerial attack.
+*Fixed a somewhat rare case of enemy FX lingering indefinitely after death when killed in [[Limbo]]’s [[Rift]] with [[Stasis]] active.
+*Fixed the UI tracker in Vor’s Prize saying “Grineer Caches” instead of the intended “Corpus Caches” 
+*Fixed clipping issues with [[Equinox]]’s front cloths.
+*Fixed Grineer console screen not switching off upon successful hacking in the Ground Zero mission of Vor's Prize.
+*Fixed enemies spawning in view of players in the Ground Zero mission of Vor's Prize.
+*Fixed the ammo counter appearing in the 1st mission during Vor’s Prize when no weapons are equipped.
+*Fixed [[Angstrum]]'s charge animation not loading bullets into the weapon chamber.
+*Restored missing missile function to some Archwing turrets.
+*Fixed crashing out of The Index and rejoining resulting in having no wager. It should now remember the Investment tier you initially selected.
+*Fixed controller cursor positioning issues when navigating menus with scrollbars.
+*Fixed Condor Dropships potentially ruining stealth because dropship enemies were always alert.
+*Fixed some weapons misusing the incorrect attachment fire position.
+*Fixed ESC not closing the Conclave challenges menu.
+*Fixed issues with successfully chaining the Samba Slash Combo when using the [[Sarpa]] with [[Bullet Dance]].
+*Fixed Dendra Leg Guards flickering when zoomed into a planet in the Star Chart.
+*Fixed Clan or Alliance Emblem rejection messages having a blank message body in localized versions of the game.
+*Fixed the second mission of the [[Archwing]] Quest having an objective waypoint that either leads nowhere or to the Extraction Point.
+*Fixed enemies not spawning in the second mission of the [[Archwing]] Quest
+*Fixed the “Scan 3 Elite Arid Lancers on Mars” node of the [[New Strange]] Quest leading to any event/Syndicate/Fissure mission on the node instead of a regular mission.
+*Fixed equipped Emblems appearing too bright when in the Orbiter.
+*Fixed being unable to shoot with the [[Pandero]] when downed, except when using alt-fire or when scoped.
+*Fixed a crash from clicking a chat link in the Clan/Alliance Message of the Day that is split by the Chat window.
+*Fixed Secondary Weapon remaining invisible after throwing a spear weapon if “hide while holstered” is enabled.
+*Fixed a soft-lock when opening the menu in Captura.
+*Fixed Conclave Arsenal being accessible before the Conclave console is unlocked.
+*Fixed several weapons using incorrect models on the floor when players are disarmed.
+*Fixed Energy Conversion FX remaining active when accessing the Arsenal in the [[Simulacrum]].
+*Fixed Chat window not being updated when settings were changed via the option menu after entering/exiting a mission.
+*Potential fix for Alert pop-up details showing the incorrect rewards.
+*Fixed some blocking in [[Cephalon]] transmissions.
+*Fixed a rendering issue on one of Simaris’ data boards in the Relays.
+*Fixed being unable to use weapons or abilities after entering the Simulacrum Arsenal with an Ability active.
+*Fixed [[Oberon]]’s [[Renewal]] causing [[Mirage]]’s [[Hall of Mirrors]] clones to not be fully see-through.
+*Fixed script error that caused a UI lock-up when trying to mod your Warframe after exiting a mission.
+*Fixed mission objective waypoint marker not disappearing after completing the objective in the [[Second Dream]].
+*Fixed Fissure Weapon buff not applying to alt fire on some weapons.
+*Fixed [[Magnum Force]] equipped on [[Castanas]] modded for multishot resulting in pin-point accuracy.
+*Fixed being unable to deal damage to the [[Jordas Golem]] from certain angles with the [[Fluctus]].
+*Fixed a map hole in the Corpus Ice Planet tileset.
+*Fixed the Palatine Hammer Skin being equipped backwards on all hammers (except for the [[Jat Kittag]]).
+*Fixed encountering the [[Grustrag Three]] in a Survival mission resulting in the 5-minute reward UI no longer functioning properly.
+*Fixed petting the air animation when attempting to interact with your [[Kavat]] immediately after putting it in stasis.
+*Fixed some Riven mods having improper grammar that would add confusion or make to the challenge description inaccurate.
+*Fixed [[Kavat]] customizations not showing up in the [[Stasis]] preview.
+*Fixed Ability UI not showing proper abilities in the Simulacrum Arsenal after switching Warframes.
+*Fixed an exploit in Simaris’ Synthesis tutorial.
+*Fixed several collision issues in the Corpus Ice Planet tileset.
+*Fixed some Melee weapons in the Profile’s Equipment tab displaying a “0% Accuracy” statistic.
+*Fixed the camera getting stuck far away from players in Captura.
+*Fixed a bug that could potentially cause Grineer Manics to stay cloaked.
+*Fixed inconsistencies in [[Ducat]] and Syndicate Standing UI backings.
+*Fixed Warframe rendering issues when breezing through the map with a low framerate.
+*Fixed some beam weapons having too long or short controller vibration effects when shooting.
+*Fixed not receiving Cache rewards in the Archwing Quest.
+*Fixed issues with extraction not triggering in the Grineer Fortress.
+*Fixed projectiles with Punch Through sometimes not passing through passable objects/surfaces.
+*Fixed Sapping Osprey mines visually duplicating for Clients.
+*Fixed the Silver Grove shrine teleporting out of the Defense area during the final quest mission, making it vulnerable and unable to be protected.
+*Fixed the [[Silva & Aegis Prime]] not playing burst FXs on hit for Clients.
+*Fixed the reward panels position in the Codex Quest screens not being adjusted properly on smaller menu scales.
+*Fixed players being allowed to start Quest mission countdown even though they haven't equipped all necessary Gear items.
+*Fixed Sugatras attaching incorrectly to the [[Dark Split-Sword]] when equipped with the Dominion Skin.
+*Fixed Uranus Defense using Interception rewards table instead of Defense reward table.
+
+;Conclave Additions, Changes & Fixes
+<div class="mw-collapsible mw-collapsed">
+;New Conclave Map! 
+Compound - large Earth based map for Annihilation and Team Annihilation
+*[[Acrid]], [[Bolto]], [[Ballistica]], [[Stug]] and [[Tysis]] now available for use in Conclave.
+*Channeled Melee damage removed and all Melee weapon damage has been increased to what they currently do when Channeled in Conclave.
+*All Melee weapon offhand slams now cause Knockdown in Conclave.
+*Aerial Melee attack damage increased for all weapon types in Conclave.
+*Increased the damage of slide attacks for heavy blades, hammers and scythes in Conclave.
+*Increased the damage of Conclave stance Scarlet Hurricane's Whirling Flush combo.
+*Changed the Conclave Stance [[Biting Piranha]], [[Flashing Razor]] combo to have quicker animations and increased damage of Leaping Slash combo.
+*Changed Conclave Stance [[Quaking Hand]] Descending Impact combo to pause after the first attack and removed the second slam attack from it.
+*Changed Conclave Stance [[Celestial Nightfall]] combos Expanding Spiral and Radial Wounding to have block and pause be after the first attack.
+*Changed Conclave Stance [[Fateful Trush]] combos [[Leading Blade]] and [[Sudden Spring]] to have block and pause after the first attack.
+*Increased the damage of Conclave Stance Argent Scourge Shrieking Wind combo.
+*Changed Conclave Stance Vicious Approach combos Savagery at Hand and Impending Danger to have block and pause be after the first attack.
+*Changed Conclave Stance Crashing Timber combos Bending Branch and Falling Leaves to have block and pause to be after the first attack.
+*Changed Conclave Stance Last Herald combos Driving Shield and Spiral Ward to have block and pause after the first attack.
+*Impair now happens on the last hit of the second attack of Driving Shield.
+*Knockdown now happens on the last hit of the second attack of Spiral Ward.
+*Increased the damage of Conclave Stance Rising Steel's Blade Wipe combo.
+*Changed Conclave Mod Impenetrable Offense to +30% Block, -10 Damage and removed Max Energy requirement.
+*Reduced the duration of Cold Status Effects in Conclave to 3 seconds.
+*Heavy Warhead and Blind Shot Conclave Mods are no longer equippable on Secondary Shotguns.
+*[[Ash]]’s [[Teleport]] ability no longer needs a target to use in Conclave.
+*Reduced the range of [[Ash]]’s [[Teleport]] in Conclave.
+*Reduced explosion radius and damage of [[Ogris]] in Conclave.
+*Increased damage of [[Karak]] in Conclave.
+*[[Lucky Shot]] Mod can longer be equipped on the [[Javlok]] in Conclave.
+*Reduced the damage of primary and alt fire of [[Euphona Prime]] in Conclave.
+*Changed the Lie in Wait Conclave Mod to: -100% Reticle Sway, +100% Recoil and lowered to Uncommon
+*All sniper rifle and bow damage adjusted to compensate for this change
+*[[Broken Scepter]] slam changed to Impact from Electricity in Conclave.
+*[[Grinlok]] damage reduced in Conclave.
+*Increased duration of [[Wukong]]'s [[Cloud Walker]] in Conclave.
+*Increased damage of [[Wukong]]'s [[Iron Jab]] in Conclave.
+*Increased invulnerability duration of [[Wukong]]'s [[Defy]] in Conclave.
+*[[Wukong]]'s [[Defy]] now returns 100% Health on death in Conclave.
+*Added Energy drain to [[Wukong]]'s [[Defy]] in Conclave.
+*[[Impair]] added to all of [[Wukong]]'s [[Primal Fury]] attacks in Conclave.
+*[[Quick Return]] and Rebound Mods are no longer usable in Conclave.
+*[[Castanas]] family and [[Talons]] are now destroyable by damaging them in Conclave.
+*[[Latron Prime]] damage decreased in Conclave.
+*[[Latron]] damage increased in Conclave.
+*[[Latron Wraith]] damage increased in Conclave.
+*Conclave Elemental Bullet Jump Mods changed to be cosmetic only and their capacity cost removed.
+*[[Lex]] damage increased in Conclave.
+*[[Lex Prime]] damage increased in Conclave.
+*Reduced clip size of [[Sybaris Prime]] in Conclave.
+*[[Ferrox]] primary fire damage reduced in Conclave.
+*[[Pandero]] damage reduced in Conclave.
+*Increased ammo pool of [[Pandero]] in Conclave.
+*Increased Duration of [[Volt]]'s [[Shield]] in Conclave.
+*Energy cost while moving removed from [[Volt]]'s [[Electric Shield]] in Conclave.
+*[[Aklex]] damage increased in Conclave.
+*[[Aklex Prime]] damage increased in Conclave.
+*Increased Range and reduced field of attack of [[Atlas]]' [[Petrify]] in Conclave.
+*Increased the Range of [[Chroma]]'s [[Spectral Scream]] in Conclave.
+*Reduced Range, increased damage and Health drain of [[Inaros]]' [[Desiccation]] in Conclave.
+*Increased the speed of [[Inaros]]' devouring animation of his [[Devour]] ability in Conclave.
+*Increased the animation speed of [[Inaros]] when he exits [[Sandstorm]] in Conclave.
+*Split the damage of [[Nova]]'s Null Stars between Finisher and Energy Drain in Conclave.
+*Reduced the speed of [[Nova]]'s Null Stars in Conclave.
+*Increased the speed of [[Nova]]'s [[AntiMatter Drop]] in Conclave.
+*Increased the speed of [[Nezha]]'s [[Blazing Chakram]] in Conclave.
+*Increased the effectiveness of [[Nezha]]'s passive in Conclave.
+*Increased [[Inaros]]’ Health in Conclave to 300.
+*Increased [[Inaros]]’ passive Heal Rate in Conclave.
+*Decreased [[Inaros]]’ Mobility in Conclave.
+*Increased the damage and decreased the Range of [[Nekros]]' [[Soul Punch]] in Conclave.
+*Increased Range of [[Nidus]]' [[Virulence]] in Conclave.
+*Increased Range and Duration of [[Nidus]]' [[Maggots]] in Conclave.
+*Reduced the Range of [[Trinity]]'s [[Link]] in Conclave.
+*Reduced mag size and increased damage of [[AkStiletto Prime]] in Conclave.
+*Removed the fire rate boost of [[Mesa]]'s passive for dual wield in Conclave.
+*Reduced the Duration of [[Titania]]'s Spellbound in Conclave.
+*Reduced the Duration of [[Saryn]]'s [[Toxic Lash]] in Conclave.
+*Increased the damage and reduced the Duration of [[Saryn]]'s [[Spores]] in Conclave.
+*Shield restore on kill Mods are no longer equippable on [[Inaros]] and [[Nidus]] in Conclave.
+*Conclave Mods that reduce mag size can no longer be used with weapons that only have 1-5 round mags.
+*Fixed an error with [[Ivara]]'s [[Navigator]] not increasing damage in Conclave.
+*Fixed [[Nova]]'s passive not knocking down in Conclave.
+*Fixed [[Rhino]]’s Roar not working properly in Dedicated Servers.
+*Fixed [[Hydroid]]’s Tentacles from Melee slams and [[Tentacle Swarm]] hitting multiple times in a single frame in Conclave.
+</div>
+
+
+'''&#42;If you’ve made it to this note &ndash; you either scrolled really fast or your eyes are screaming for moisture! You may have also noticed that there was no mention of Shield Gating within that giant list above. We still have more to test and discuss to ensure this large change is balanced.'''
+}}
+{{update
+|update number  = 20.7.4.1
+|type           = fix
+|date           = June 27th, 2017
+|forumurl       = https://forums.warframe.com/topic/809453-oberon-prime-hotfix-2074-20741/
+|fixes          =
+*Fixed players not being able to login!
+}}
+{{update
+|update number  = 20.7.4
+|type           = fix
+|date           = June 27th, 2017
+|forumurl       = https://forums.warframe.com/topic/809453-oberon-prime-hotfix-2074-20741/
+|image          = U20.7.4_Unvault.png
+|misc           =
+<strong>Prime Vault Unsealed until August 1!
+
+New limited time Relics have been added to drops and Relic Packs that contain the following items and their parts:
+*[[Rhino/Prime|Rhino Prime]]
+*[[Mag/Prime|Mag Prime]]
+*[[Boar Prime]]
+*[[Boltor Prime]]
+*[[Dakra Prime]]
+*[[Ankyros Prime]]
+
+As with any newly introduced Relic, the Codex is your guide to planning your hunt. This time around we are sharing with you some more transparent information; the new Prime Vault Relic drop-rates per mission! As we work towards a more permanent location for housing drop-rates, we hope that the combination of Codex locations and the list below will aid in your hunt for these items.</strong>
+
+<div class="mw-collapsible mw-collapsed" style="width:100%">
+'''Limited Time Relics have been added and their drop locations can be found in the Codex:'''
+<div class="mw-collapsible-content">
+Please note we are triple checking our data on this to ensure it is exhaustive - if we add or change we will make an editor's note!
+
+;Lith B1
+Dark Sector Defense: Rotation A: 9.4%<br />
+Easy Dark Sector Survival: Rotation B: 7.14%<br />
+Easy Dark Sector Survival: Rotation C: 9.68%<br />
+Easy Defense: Rotation A: 6.67%<br />
+Easy Excavation: Rotation B: 7.1%<br />
+Easy Excavation: Rotation C: 9.67%<br />
+Easy Interception: Rotation A: 8.33%<br />
+Easy Spy: Vault 2: 12.5%<br />
+Easy Survival: Rotation B: 7.14%<br />
+Easy Survival: Rotation C: 9.68%<br />
+Orokin Derelict Defense: Rotation A: 10%<br />
+Orokin Derelict Survival: Rotation A: 10%
+
+;Meso M1
+Dark Sector Defense: Rotation B: 1.3%<br />
+Dark Sector Defense: Rotation C: 7.5%<br />
+Easy Defense: Rotation B: 7.14%<br />
+Easy Defense: Rotation C: 6.66%<br />
+Medium Defense: Rotation A: 9.09%<br />
+Medium Excavation: Rotation B: 5.88%<br />
+Easy Interception: Rotation B: 5%<br />
+Easy Interception: Rotation C: 9.74%<br />
+Medium Interception: Rotation A: 7.14%<br />
+Hard Spy: Vault 2: 5.95%<br />
+Medium Spy: Vault 3: 7.03%<br />
+Medium Dark Sector Survival: Rotation B: 5.88%<br />
+Medium Survival: Rotation B: 5.88%<br />
+Orokin Derelict Defense: Rotation C: 7.74%
+
+;Neo B3
+Dark Sector Defense: Rotation B: 1.7%<br />
+Hard Defense: Rotation A: 9.09%<br />
+Medium Defense: Rotation B: 6.25%<br />
+Medium Defense: Rotation C: 9.67%<br />
+Infested Salvage: Rotation A: 9.09%<br />
+Medium Excavation: Rotation C: 9.67%<br />
+Hard Excavation: Rotation B: 6.25%<br />
+Hard Interception: Rotation A: 9.09%<br />
+Medium Interception: Rotation B:6.25%<br />
+Medium Interception: Rotation C: 12.5%<br />
+Hard Spy: Vault 2: 5.95%<br />
+Hard Dark Sector Survival: Rotation B: 6.25%<br />
+Medium Dark Sector Survival: Rotation C: 9.67%<br />
+Very Hard Survival (Zabala, Eris): Rotation B: 12.5%<br />
+Medium Survival: Rotation C: 9.68%<br />
+Hard Survival: Rotation B: 6.25%<br />
+Very Hard (Mot, Void) Rotation B: 12.5%<br />
+Orokin Derelict Survival: Rotation B: 11.11%
+
+;Axi R1
+Hard Defense: Rotation B: 5.88%<br />
+Hard Defense: Rotation C: 8.60%<br />
+Infested Salvage: Rotation B: 5.88%<br />
+Hard Excavation: Rotation B: 8.60%<br />
+Hard Archwing Interception: Rotation C: 7.74%<br />
+Hard Interception: Rotation B: 12.5%<br />
+Hard Interception: Rotation C: 12.17%<br />
+Hard Dark Sector Survival: Rotation B: 8.60%<br />
+Very Hard Survival (Zabala, Eris): Rotation B: 10%<br />
+Hard Survival: Rotation B: 8.60%<br />
+Very Hard (Mot, Void) Rotation C: 11.11%<br />
+Orokin Derelict Survival: Rotation C: 8.60%
+</div>
+</div>
+
+
+<strong>Check out the new Prime Vault Unsealed for other high-demand Vaulted Prime Accessories, packaged together with discounted Platinum [https://www.warframe.com/prime-vault here]!
+
+Don't forget: Refining your relics can turn the odds in your favor if you're after a Rare part!
+
+Intact Relics: Common @ 25.33%, Uncommon @ 11.00%, Rare @ 2%.<br />
+Exceptional Relics: Common @ 23.33%, Uncommon @ 13.00%, Rare @ 4%.<br />
+Flawless Relics: Common @ 20.00%, Uncommon @ 17.00%, Rare @ 6%.<br />
+Radiant Relics: Common @ 16.67%, Uncommon @ 20.00%, Rare @ 10%.</strong>
+
+|changes        =
+*Flipped the Desert-Camo icons to face the correct direction
+|fixes          =
+*Fixed Clients having giant [[Archwing]]s (more like size-of-Central-Parkwing, am I right?) and not being visible in the camera view.
+*Fixed Nova being able to use Worm Hole on certain Cryopods, causing their hitboxes to move.
+*Fixed the [[Fomorian]] having twisted Reactors for Clients.
+*Fixed an unlocalized text appearing in the [[Fomorian]] End of Mission screen.
+*Fixed the screen remaining blurry after respawning as [[Operator]] during certain missions in [[The War Within]].
+*Fixed a crash in the [[Relay]]. 
+
+'''Conclave Fixes'''
+*Fixed [[Wukong|Wukong’s]] [[Defy]] invulnerability period not applying in [[Conclave]].
+}}
+{{update
+|update number  = 20.7.2
+|type           = fix
+|date           = June 16th, 2017
+|forumurl       = https://forums.warframe.com/topic/806503-oberon-prime-hotfix-2072/
+|changes        =
+*Adjusted the force feedback when firing the [[Glaxion]] with a controller.
+|fixes          =
+*Fixed numerous issues with sending or accepting Friend requests resulting in a blank pop-up window. 
+*Fixed "CLAN" not being localized in the Clan tier title.
+}}
+{{update
+|update number  = 20.7.3
+|type           = fix
+|date           = June 16th, 2017
+|forumurl       = https://forums.warframe.com/topic/806797-oberon-prime-hotfix-2073/
+|changes        =
+*Force Feedback will now work as intended for all beam weapons when using a controller.
+*[[Oberon|Oberon’s]] Renewal no longer affects [[Mirage|Mirage’s]] [[Hall of Mirrors|Hall of Mirror]] clones since it does nothing but consume Energy.
+|fixes          =
+*Fixed being unable to deal damage to the Jordas Golem from certain angles with the [[Fluctus]].
+}}
+{{update
+|update number  = 20.7.2
+|type           = fix
+|date           = June 15th, 2017
+|forumurl       = https://forums.warframe.com/topic/806503-oberon-prime-hotfix-2072/
+|changes        =
+*Adjusted the force feedback when firing the [[Glaxion]] with a controller.
+|fixes          =
+*Fixed numerous issues with sending or accepting Friend requests resulting in a blank pop-up window. 
+*Fixed "CLAN" not being localized in the Clan tier title.
+}}
+{{update
+|update number  = 20.7.1
+|type           = fix
+|date           = June 14th, 2017
+|forumurl       = https://forums.warframe.com/topic/806282-oberon-prime-hotfix-2071/
+|changes        =
+*[[Mag|Mag’s]] [[Magnetized Discharge|Magnetize Discharge]] [[Augment]] disarm will now also have a chance to [[Disarm]] when the bubble explodes naturally.
+*[[Ratel|Ratels]] are now more aware of the objectives in [[Excavation]], [[Survival]] and [[Mobile Defense]] missions.
+*The [[Health Conversion]] Mod now activates upon taking damage instead of getting hit. Previously, [[Warframes]] (like [[Valkyr]], [[Rhino]] or [[Nezha]]) that have abilities that make themselves invincible to damage, were consuming the conversion when hit even though no damage was being done due to invincibility. This rendered the [[Health Conversion]] Mod rather useless, and has since been changed to improve functionality. 
+|fixes          =
+*Fixed [[Ash]] [[Fatal Teleport]] [[Augment]] teleporting enemies down through the floor in certain situations.
+*Fixed Clients not resetting their Operator Energy regen (and therefore having incorrect Energy HUD values) upon exclusively using either the Void Beam or the Void Mode.
+*Fixed a crash related to [[Ash Prime|Ash Prime's]] [[Teleport]].
+*Fixed enemies frozen in [[Stasis]] sometimes remaining upright, misleading players into thinking they're still alive.
+*Fixed [[Mesa|Mesa’s]] [[Peacemaker]] screen blur remaining active after the ability ends.
+*Fixed the camera colliding with the player if you respawn after spectating someone in [[Archwing]].
+*Fixed [[Excavation]] spawn flow issues caused by breakable objects (Grates and Fans). 
+*Fixed the [[Fluctus]] not doing any damage to turrets or buttons in [[The Jordas Verdict]].
+*Fixed the marker disappearing on ragdolled Bomb carrier enemies in [[The Law of Retribution]]. We have also added some logging in general to Bomb carriers to solve future issues. 
+}}
+{{update
+|update number  = 20.7
+|type           =
+|date           = June 7th, 2017
+|forumurl       = https://forums.warframe.com/topic/804548-oberon-prime-update-2070/
+|misc           =
+|additions      =
+[[File:U20.7_Augments.png|center|660px]]
+'''NEW AUGMENTS'''
+ 
+'''[[Excalibur]] ([[Exalted Blade]])'''
+*[[Chromatic Blade]] - Exalted Blade's damage type changes depending on energy colour and status chance is increased by 50%. 
+ 
+'''[[Mag]] ([[Magnetize]])'''
+*[[Magnetized Discharge]] - Manually detonate Magnetize by recasting on the target. Enemies hit have a 50% chance to become disarmed. 
+ 
+'''[[Chroma]] ([[Effigy]])'''
+*[[Guided Effigy]] - Cast and hold to make Effigy move to your aim point. Deals 2000 damage per second to enemies in its path and roars on arrival stunning nearby enemies. 
+ 
+'''[[Volt]] ([[Electric Shield]])'''
+*[[Transistor Shield]] - Allies can pick up Electric Shield. 100% of damage absorbed will be added to Volt's Static Discharge. 
+ 
+'''Find these new Augments as Syndicate offerings today!'''
+|changes        =
+*Slightly increased enemy count when you have more Excavators deployed than players to help balance the flow of spawned enemies (mostly experienced in Solo mode).
+*Adjusted the Igaro Syandana positioning on [[Hydroid]] to bring it closer to the body.
+*The Matchmaking dropdown is now selectable in the Squad menu while in the Dojo. This enables you to change your matchmaking settings if you're playing Solo and try to invite someone.
+*Changed [[Fatal Acceleration]] to allow fitting on all Shotguns since trace-hit shotguns have their falloff altered by projectile speed Mods (this was already happening from Riven drawbacks).
+*[[Ash|Ash’s]] [[Fatal Teleport]] Augment will now only rotate the target so their back is facing you (before would rotate to front or back) since many weapons don't have frontal finishers.
+|fixes          =
+*Fixed [[Frost|Frost’s]] [[Freeze]] not doing AoE damage.
+*Fixed a problem with the giant round "Airlock" doors used most commonly found in Corpus Outpost levels; enemies could get stuck on these doors if all players were out of view and parts of the door were put to sleep.
+*Fixed enemies deployed by Condor Dropships in Excavation missions being defensive and fortifying the area they were deployed; these enemies would prevent crucial Power Cell Carrier reinforcements from arriving.
+*Fixed the camera not keeping up with the position of the player while the menu is open, making it difficult to use the menu when falling/moving/flying/not looking back at explosions.
+*Fixed Clients not being able to select a Relic or accept the mission if the Host selects a new Fissure mission while the Client is on the loading screen.
+*Fixed Operator Void Beam damage being framerate dependent.
+*More fixes towards the Sukira Prime Syandana being too floaty.
+*Fixed [[Oberon|Oberon’s]] [[Smite]] projectile circling above Defense pods when cast near it.
+*Fixed [[Oberon|Oberon’s]] [[Smite Infusion]] Augment allowing you to Smite the Defense pod.
+*Fixed being able to avoid getting hit in the Mastery Rank 24 test.
+*Fixed the [[Oberon Prime]] shoulder armor remaining by default when equipping the Feyarch Skin.
+*Fixed the right Nidina Leg Plate equipping on the left leg.
+*Fixed the Zaikya Syandana sitting incorrectly on Rhino and Rhino Prime.
+*Fixed [[Oberon|Oberon’s]] shoulder armor appearing black.
+*Fixed the [[Jordas Golem]] Assassinate mission reward being lowercase. 
+*Fixed the Ki’Teer Atmos Mask and Greater Lens Blueprint being tradable. 
+*Fixed switching back and forth from the "Uninstalled" to the "Installed" Arcanes tab breaking the Arcane UI. 
+*Fixed a loss of functionality and numerous UI discrepancies when attempting to switch Landing Crafts when in Navigation.
+*Fixed Menu and Squad view sometimes not being visible if you're moving very fast on low framerate systems.
+*Fixed selecting ‘Mods’ on an un-Forma'd weapon with no Mods equipped resulting in the category selection disappearing. 
+*Fixed overlapping text when opening the Clan option from the Navigation menu when not in a Clan. 
+*Fixed Specters not receiving the same Energy regeneration upgrade that the previous Solar Rail Specters did.
+*Fixed a case where [[Ash|Ash’s]] [[Fatal Teleport]] target may move too far away during the casting animation for the finisher to succeed.
+*Fixed a case where some tilesets would block Ash’s Fatal Teleport finishers. 
+*Fixed disarming [[Power Carrier|Corpus Power Carrier]] resulting in their Provas floating outside of their hands.
+}}
+{{update
 |update number  =20.6.4
 |type           =fix
 |date           =May 30th, 2017
