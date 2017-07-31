@@ -1,3 +1,74 @@
-Looking for: gunslinger
-{{ver|15.5}}
-'''Mesa: The Gunslinger'''<br>
+Looking for: gram
+{{ver|19.1}}
+*Fixed incorrect use of grammar in Valkyr's Passive description. 
+{{ver|The Silver Grove 4}}
+*Fixed a grammatical error in the Manduka Pack description.
+{{ver|The Silver Grove 2.1|fix}}
+*Fixed the Synoid Heliocor hologram not displaying the Cephalon Suda symbol. 
+{{ver|The Silver Grove 4|fix}}
+*Fixed various localization typos and grammar errors. 
+{{ver|Specters of the Rail }}
+The Louvre, The Met - and now, The Orbiter. Create your own art exhibit chez vous (too french?) with the new Orbiter Gallery! Whether your skills come from Instagram, Photoshop, or Snapchat, use filters, cropping, and other editing tools to customize each Display how you'd like! Each picture can be Displayed in a variety of formats:
+{{ver|18.6.2|fix}}
+*Fixed a grammatically incorrect Ordis subtitle.
+{{ver|18.3}}
+*The Scindo series, Gram, Galatine, Magistar, Fragor and Jat Kittag have had their damage and Stance damage increased in Conclave.
+{{ver|18.0.4|fix}}
+[[Frost Prime]], [[Titan Extractor Prime]], [[Latron Prime]], [[Reaper Prime]] and the [[Syandana|Misa Prime Syandana]] will all be available for a limited time through our Prime Access Program.  Additionally, the following drops have been made available in the Void for a limited time:
+{{ver|17.5.5|fix}}
+*Fixed holograms created by Nyx's Chaos becoming frozen as per: [https://forums.warframe.com/index.php?/topic/539097-are-nyx-holograms-supposed-to-be-frozen/ this thread]
+{{ver|17.2.4}}
+*Fixed a number of issues with melee items/weapons that result in radial damage. Radial damage values have been significantly lowered on melee ground attacks, especially for the Galatine, Gram, and Jat Kittag. Exact ranges are as follows:
+**Gram and Galatine from 5 meters to 4 meters.
+{{ver|16.7.2}}
+*Fixed a couple typos and grammar errors in Simaris' Synthesis lore.
+*Fixed grammatical errors in the description of Trials in the Codex.
+{{ver|16.4}}
+*Increase Stamina drain when blocking with the Gram in PvP.
+*Fixed some grammatical errors in the Codex description of Defense Missions.
+{{ver|16.3.4}}
+*Fixed 7 day Affinity Booster not working correctly for accounts under the referral program.
+{{ver| 16.3}}
+*Increased the damage of the Gram in PvP.
+{{ver|16.0}}
+*Fixed grammatical error in the Gemini Nikana's Market description.
+{{ver|15.12.3}}
+*Improved NAT-PMP diagnostics to identify when other programs may be interfering with the automatic port-forwarding.
+{{ver|15.1.3}}
+*Fixed minor grammar and typo errors on Training entries.
+{{ver|15.1}}
+*[[Gram]]
+{{ver|14.5.2}}
+*Fixed a grammatical error in the event reward message.
+{{ver|14.0.5}}
+*Fixed grammar errors in the Kubrow Quest intercepted message.
+{{ver|13.9.1|fix}}
+*Changed Cache Sharing to hide extension names so as to prevent any netnanny programs from getting caught on bad words in the program name.
+{{ver|13.6}}
+*Altered the visuals on Bladestorm clones so as to make them appear more like energy holograms and not just duplicates of the Ash model.
+{{ver|13.5.3|fix}}
+*Fixed a minor grammatical error in a Lotus transmission.
+{{ver|13.3.1|fix}}
+*Fixed a number of grammar errors in item descriptions.
+{{ver|11.3}}
+*Edge lights on Gram now respect the chosen color for Energy.
+{{ver|11.1}}
+*Updated Gram skin to match faction style better. This is automatic, all your Grams are updated!
+{{ver| 10.2.0}}
+*Mods available from the Referral Program can now be found in-game or through Mod *packs in the Market.
+{{ver| 10.1.3}}
+*Added Referral Program link to Contacts overlay
+{{ver| 9.0}}
+*Refined the tint options on the [[Burston]], [[Viper]], [[Gram]], [[Furis]], [[Afuris]], [[Dera]], [[Furax]], and [[Boltor]].
+{{ver| 7.11}}
+*Changes to [[Gram]] sounds.
+{{ver| 7.8.1}}
+**Hacking/Cheating bans are now automatic. Our existing cheat/hack detection code that has been tracking hacks and is now configured to take action automatically. Do not run hacking programs while playing Warframe. You will be banned.
+{{ver| 7}}
+*Sentinels - customize and program a Sentinel "pet" to accompany you on missions.
+{{ver| 6.3|fix}}
+*Remove hum sound from Gram.
+{{ver| 6.3}}
+*Gram hit box improved
+{{ver| 6.2}}
+*Gram: A devastating GreatSword!

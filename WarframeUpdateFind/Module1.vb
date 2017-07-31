@@ -21,9 +21,24 @@
 
         For i = 0 To patchLines.Length - 1
             If patchLines(i).ToLower().Contains("update number") Then
-                verString = System.Text.RegularExpressions.Regex.Replace(patchLines(i), "\|update number\s*?\=\s*?", "{{ver|", Text.RegularExpressions.RegexOptions.IgnoreCase) & "}}"
+                verString = System.Text.RegularExpressions.Regex.Replace(patchLines(i), "\|update number\s*?\=\s*?", "{{ver|", Text.RegularExpressions.RegexOptions.IgnoreCase)
+                If patchLines(i + 1).ToLower().Contains("type") And patchLines(i + 1).ToLower().Contains("fix") Then
+                    verString = verString + "|fix}}"
+                Else
+                    verString = verString + "}}"
+                End If
+
+                hasWrittenVerString = False
+            ElseIf patchLines(i).ToLower().Contains("==update") Then
+                verString = System.Text.RegularExpressions.Regex.Replace(patchLines(i), "\=\=Update", "{{ver|", Text.RegularExpressions.RegexOptions.IgnoreCase) & "}}"
+                verString = verString.Replace("=", "")
+                hasWrittenVerString = False
+            ElseIf patchLines(i).ToLower().Contains("=hotfix") Then
+                verString = System.Text.RegularExpressions.Regex.Replace(patchLines(i), "\=\=Hotfixe?s?", "{{ver|", Text.RegularExpressions.RegexOptions.IgnoreCase) & "|fix}}"
+                verString = verString.Replace("=", "")
                 hasWrittenVerString = False
             End If
+
             If patchLines(i).ToLower().Contains(toFind) Then
                 If hasWrittenVerString = False Then
                     Console.WriteLine(verString)
