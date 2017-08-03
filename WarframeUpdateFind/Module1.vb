@@ -18,9 +18,17 @@
 
         Dim verString As String = ""
         Dim hasWrittenVerString As Boolean = False
+        Dim hasWrittenUpdateVerString As Boolean = False
 
         For i = 0 To patchLines.Length - 1
             If patchLines(i).ToLower().Contains("update number") Then
+                If Not hasWrittenUpdateVerString Then
+                    ' We can be safe to use this only for more recent changes due to the patch history page using the template, should trigger once for most recent update found
+                    verString = System.Text.RegularExpressions.Regex.Replace(patchLines(i), "\|update number\s*?\=\s*?", "", Text.RegularExpressions.RegexOptions.IgnoreCase)
+                    Console.WriteLine("<!-- Last Updated: " & verString & " -->")
+                    hasWrittenUpdateVerString = True
+                End If
+
                 verString = System.Text.RegularExpressions.Regex.Replace(patchLines(i), "\|update number\s*?\=\s*?", "{{ver|", Text.RegularExpressions.RegexOptions.IgnoreCase)
                 If patchLines(i + 1).ToLower().Contains("type") And patchLines(i + 1).ToLower().Contains("fix") Then
                     verString = verString + "|fix}}"
@@ -41,6 +49,7 @@
 
             If patchLines(i).ToLower().Contains(toFind) Then
                 If hasWrittenVerString = False Then
+                    Console.WriteLine("")
                     Console.WriteLine(verString)
                     hasWrittenVerString = True
                 End If
